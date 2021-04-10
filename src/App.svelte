@@ -1,12 +1,12 @@
 <script lang="ts">
 	import Splash from './Splash.svelte'
-	import About from './About.svelte'
+	import Contact from './Contact.svelte'
 	let name = 'Jon';
 </script>
 
 <Splash />
 <main id="desktop">
-	<About />
+	<Contact />
 </main>
 
 <style>
