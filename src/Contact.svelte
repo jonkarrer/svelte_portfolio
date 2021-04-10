@@ -1,4 +1,11 @@
-<script></script>
+<script>
+  import {spring} from 'svelte/motion'
+let coords = spring({x: 50, y: 50}, {
+  stiffness: 0.2,
+	damping: 0.25
+});
+  let size = spring(10);
+</script>
 
 <div class="homepage">
   <div class="project-title"><p style="transform: rotate(90deg)">Projects</p></div>
@@ -11,10 +18,22 @@
     </div>
   </div>
   <div class="about-title"><p style="transform: rotate(-90deg)">About</p></div>
+  <svg
+  on:mousemove="{e => coords.set({ x: e.clientX, y: e.clientY }, {
+
+  })}"
+  on:mousedown="{(e) => coords.set({x: e.clientX, y: e.clientY + 200 })}"
+  on:mouseup="{(e) => coords.set({ x: e.clientX, y: e.clientY})}"
+>
+  <circle cx={$coords.x} cy={$coords.y} r={$size}/>
+</svg>
 </div>
+
 
 <style>
 .homepage {
+  height: 100vh;
+  width: 100vw;
   display: grid;
   grid-template-columns: 150px auto 150px;
   position: relative;
@@ -32,6 +51,7 @@
 a.email {
   font-size: clamp(1em, 5vw, 8em);
   color: white;
+  z-index: 4;
 }
 .social-media-container {
   display: flex;
@@ -45,6 +65,7 @@ a.email {
   align-items: center;
   justify-content: center;
   margin: 50px 25px;
+  z-index: 4;
 }
 .icon-container a img {
   object-fit: fill;
@@ -58,6 +79,7 @@ a.email {
   height: 100vh;
   font-size: clamp(2em, 5vw, 6em);
   color: var(--theme-cyan);
+  z-index: 4;
 }
 .about-title {
   display: flex;
@@ -66,6 +88,7 @@ a.email {
   height: 100vh;
   font-size: clamp(2em, 5vw, 6em);
   color: var(--theme-cyan);
+  z-index: 4;
 }
 .about-title:hover, .project-title:hover {
   background: white;
@@ -73,4 +96,6 @@ a.email {
 .project-title p, .about-title p:hover {
   cursor: pointer;
 }
+svg { width: 100%; height: 100%; position: absolute; }
+circle { fill: var(--theme-cyan) }
 </style>
