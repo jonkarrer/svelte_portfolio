@@ -1,79 +1,76 @@
 <script></script>
 
 <div class="homepage">
-  <div class="project-title" onclick="slideOpenProjects()"><p style="transform: rotate(90deg)">Projects</p></div>
-  <div class="about-wrapper">
-    <h1>About Me</h1>
-    <p>
-         I enjoy problem solving, coding, team sports, and art. If you have a dream,
-         I want to help you make that happen. I'm adding projects to my portfolio
-         regulary and you can follow my progress on LinkedIn!
-    </p>
-    <div class="soft-skills-wrapper">
-      <div class="skills-title" onclick="slideOpenSkills()"><p1>Skills</p1></div>
-      <div class="blog-title"><p1><a href="https://chewedup.blog">Blog</a></p1></div>
+  <div class="project-title"><p style="transform: rotate(90deg)">Projects</p></div>
+  <div class="contact-wrapper">
+    <a href="mailto: karrerjon@gmail.com" class="email">karrerjon@gmail.com</a>
+    <div class="social-media-container">
+      <div class="icon-container"><a href="https://chewedup.blog"><img src="assets/white-icons/3.svg" alt="blog icon"></a></div>
+      <div class="icon-container"><a href="https://github.com/jonkarrer"><img src="assets/white-icons/1.svg" alt="github icon"></a></div>  
+      <div class="icon-container"><a href="https://www.linkedin.com/in/jon-karrer-6b8a18186/"><img src="assets/white-icons/2.svg" alt="linkedin"></a></div>
     </div>
   </div>
-  <div class="contact-title" onclick="slideOpenContacts()"><p style="transform: rotate(-90deg)">Contact</p></div>
+  <div class="about-title"><p style="transform: rotate(-90deg)">About</p></div>
 </div>
 
 <style>
-  .homepage {
+.homepage {
   display: grid;
-  grid-template-columns: 300px auto 300px;
+  grid-template-columns: 150px auto 150px;
   position: relative;
   transition: all 0.5s;
   overflow: hidden;
 }
-.about-wrapper {
+.contact-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.about-wrapper h1 {
-  font-size: 6em;
+a.email {
+  font-size: clamp(1em, 5vw, 8em);
   color: white;
 }
-.about-wrapper p {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.7vw;
-  margin: 20px;
-  color: var(--theme-lite-grey);
+.social-media-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 }
-.about-wrapper p {
-    font-size: 1.5em;
-  }
+.icon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 25px;
+}
+.icon-container a img {
+  object-fit: fill;
+  width: 5vw;
+  min-width: 30px;
+  max-width: 100px;
+}
 .project-title {
   display: flex;
   align-items: center;
   height: 100vh;
-  font-size: 50px;
+  font-size: clamp(2em, 5vw, 6em);
   color: var(--theme-cyan);
 }
-.contact-title {
+.about-title {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
   height: 100vh;
-  font-size: 50px;
+  font-size: clamp(2em, 5vw, 6em);
   color: var(--theme-cyan);
 }
-.soft-skills-wrapper {
-  display: flex;
-  width: 100%;
-  justify-content: space-evenly;
-  align-items: center;
-  font-size: calc(2vh + 2vw);
-  color: var(--theme-purple);
-  margin-top: 10vh;
+.about-title:hover, .project-title:hover {
+  background: white;
 }
-.project-title,
-.contact-title,
-.skills-title,
-.blog-title,
-.resume-title:hover {
+.project-title p, .about-title p:hover {
   cursor: pointer;
 }
 </style>
