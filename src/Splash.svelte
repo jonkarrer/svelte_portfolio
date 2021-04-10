@@ -1,4 +1,3 @@
-<script></script>
 <section class="artpage">
   <div class="title">
     <h1>Jon Karrer</h1>
@@ -24,7 +23,7 @@
       </g>
     </svg>
   </div>
-  <div id="stripes-wide">
+  <div class="stripes_desktop-version">
     <svg  width="100vw" height="1135.739" viewBox="-700 200 1114.246 1535.739">
       <g id="Rectangle_1" data-name="Rectangle 1" transform="translate(827.773 82.233) rotate(45)" fill="rgba(23,196,183,0.82)" stroke="#707070" stroke-width="1">
         <rect width="30" height="130vh" stroke="none"/>
@@ -46,7 +45,7 @@
   </div>
 </section>
 <style>
-#stripes-wide {
+.stripes_desktop-version {
   background: black;
   height: 100vh;
 }
@@ -54,7 +53,7 @@
   color: white;
   margin: 0px 100px;
   margin-top: 10px;
-  font-size: 4em;
+  font-size: clamp(2em,10vw,5.5em);
   width: fit-content;
   position: absolute;
 }
@@ -67,15 +66,12 @@
   display: none;
 }
 /********Mobile View********/
-@media (max-width: 900px) {
+@media (max-width: 550px) {
   .artpage {
     height: 100vh;
   }
   .stripes_mobile-version {
     display: block;
-  }
-  #stripes-wide {
-    display: none;
   }
   .title {
     color: white;
@@ -88,6 +84,9 @@
     text-align: right;
     color: #17c4b7;
     margin-top: -20px;
+  }
+  .stripes_desktop-version {
+    display: none;
   }
 }
 </style>
