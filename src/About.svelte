@@ -14,7 +14,7 @@
         I am 28 and live in Louisiana with my high school sweetheart.
         My real passions in life are creating things and problem solving.
         Cooking, coding, writing, drawing, and reading take up most of my time.
-        In my free time I enjoy backpacking for weeks deep into the moutains.
+        In my free time I enjoy backpacking for weeks deep into the mountains.
         I am always looking for a new adventure and to meet new people.
         If you have a dream, please contact me, because I really want to help you get there.
       </p>
@@ -24,7 +24,7 @@
       <h1>Experience</h1>
       <ul class="timeline">
         <li>
-          <ul>
+          <ul class="dot-list">
             <h2>Education</h2>
             <li>East Ascension High, Graduated w/ Honors</li>
             <li>LSU, 3 yrs, Mech. Engineering</li>
@@ -32,7 +32,7 @@
           </ul>
         </li>
         <li>
-          <ul>
+          <ul class="dot-list">
             <h2>Work History</h2>
             <li>Chef, 8 yrs, Various places</li>
             <li>Personal Training Director, 1 yr, LA Fitness</li>
@@ -41,7 +41,7 @@
           </ul>
         </li>
         <li>
-          <ul>
+          <ul class="dot-list">
             <h2>Sports</h2>
             <li>5A Varsity Football, 4 yrs, Team Captain</li>
             <li>Div 1 Wrestling, 2 yrs, 4th in State</li>
@@ -79,6 +79,7 @@
     width: 70%;
     background: white;
     margin: auto;
+    padding-bottom: 20px;
   }
   h1 {
     text-align: center;
@@ -86,7 +87,7 @@
     font-size: 2em;
   }
   p {
-    margin: 30px 50px;
+    margin: 35px 50px;
     text-indent: 1em;
     line-height: 1.4;
     font-size: 1.2em;
@@ -97,6 +98,10 @@
   }
   li {
     margin: 5px 20px;
+    font-size: 1.1em;
+  }
+  .dot-list {
+    list-style: outside;
   }
   .timeline {
     display: grid;
