@@ -1,5 +1,6 @@
 <script>
   import Projects from './Projects.svelte'
+  import About from './About.svelte'
   import {spring} from 'svelte/motion'
 let coords = spring({x: 0, y: 0}, {
   stiffness: 0.2,
@@ -29,6 +30,7 @@ let coords = spring({x: 0, y: 0}, {
   </svg>
 </div>
 <Projects />
+<About />
 <style>
 .homepage {
   height: 100vh;

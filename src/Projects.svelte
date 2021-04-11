@@ -1,10 +1,11 @@
 <script></script>
-<div class="title-block">
-<h1 class="title">Projects</h1>
-<q>to be creative is to be in love with life</q>
-<cite>- Osho</cite>
-</div>
+
 <section class="projects-wrapper">
+  <div class="title-block">
+    <h1 class="title">Projects</h1>
+    <q>to be creative is to be in love with life</q>
+    <cite>- Osho</cite>
+  </div>
   <div class="projects-grid">
     <div class="daybrk">Dybrk</div>
     <div class="hair">hair</div>
@@ -17,10 +18,10 @@
 
 <style>
   .projects-wrapper {
-    width: 100vw;
-    margin-top: 100px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
   }
   .title-block {
     display: block;
@@ -30,12 +31,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 3em;
   }
   h1.title {
     color: white;
-    margin-top: 2em;
     font-size: 4em;
-    margin-bottom: .2em;
   }
   q {
     color: white;
