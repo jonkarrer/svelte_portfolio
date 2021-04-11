@@ -1,12 +1,12 @@
 <script>
+  import Projects from './Projects.svelte'
   import {spring} from 'svelte/motion'
-let coords = spring({x: 50, y: 50}, {
+let coords = spring({x: 0, y: 0}, {
   stiffness: 0.2,
 	damping: 0.25
 });
   let size = spring(10);
 </script>
-
 <div class="homepage">
   <div class="project-title"><p style="transform: rotate(90deg)">Projects</p></div>
   <div class="contact-wrapper">
@@ -19,26 +19,25 @@ let coords = spring({x: 50, y: 50}, {
   </div>
   <div class="about-title"><p style="transform: rotate(-90deg)">About</p></div>
   <svg
-  on:mousemove="{e => coords.set({ x: e.clientX, y: e.clientY }, {
+    on:mousemove="{e => coords.set({ x: e.clientX, y: e.clientY }, {
 
-  })}"
-  on:mousedown="{(e) => coords.set({x: e.clientX, y: e.clientY + 200 })}"
-  on:mouseup="{(e) => coords.set({ x: e.clientX, y: e.clientY})}"
->
-  <circle cx={$coords.x} cy={$coords.y} r={$size}/>
-</svg>
+    })}"
+    on:mousedown="{(e) => coords.set({x: e.clientX, y: e.clientY + 200 })}"
+    on:mouseup="{(e) => coords.set({ x: e.clientX, y: e.clientY})}"
+  >
+    <circle cx={$coords.x} cy={$coords.y} r={$size}/>
+  </svg>
 </div>
-
-
+<Projects />
 <style>
 .homepage {
   height: 100vh;
   width: 100vw;
   display: grid;
-  grid-template-columns: 150px auto 150px;
+  grid-template-columns: auto auto auto;
   position: relative;
   transition: all 0.5s;
-  overflow: hidden;
+  background-color: var(--theme-dark-grey);
 }
 .contact-wrapper {
   display: flex;
@@ -76,26 +75,25 @@ a.email {
 .project-title {
   display: flex;
   align-items: center;
+  justify-content: flex-start;
   height: 100vh;
   font-size: clamp(2em, 5vw, 6em);
   color: var(--theme-cyan);
-  z-index: 4;
 }
 .about-title {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   height: 100vh;
   font-size: clamp(2em, 5vw, 6em);
   color: var(--theme-cyan);
-  z-index: 4;
 }
-.about-title:hover, .project-title:hover {
-  background: white;
+.project-title p, .about-title p {
+  z-index: 4;
 }
 .project-title p, .about-title p:hover {
   cursor: pointer;
 }
-svg { width: 100%; height: 100%; position: absolute; }
+svg { width: 100vw; height: 100vh; position: absolute; }
 circle { fill: var(--theme-cyan) }
 </style>

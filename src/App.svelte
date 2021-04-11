@@ -1,20 +1,18 @@
 <script lang="ts">
 	import Splash from './Splash.svelte'
-	import Contact from './Contact.svelte'
+  import Homepage from './Homepage.svelte';
 	let name = 'Jon';
 </script>
 
 <Splash />
 <main id="desktop">
-	<Contact />
+	<Homepage />
 </main>
 
 <style>
 	#desktop {
-  height: 100vh;
   width: 100vw;
-  background: var(--theme-dark-grey);
-  position: relative;
+  background: var(--main-grey);
   overflow: hidden;
 }
 </style>
