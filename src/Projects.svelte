@@ -160,7 +160,7 @@
   }
   .overlay {
     position: absolute;
-    background: rgba(0,0,0,.7);
+    background: rgba(0,0,0,.8);
     z-index: 1;
     width: 600px;
     height: 341px;
