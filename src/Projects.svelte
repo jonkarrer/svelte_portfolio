@@ -7,12 +7,25 @@
     <cite>- Osho</cite>
   </div>
   <div class="projects-grid">
-    <div class="daybrk">Dybrk</div>
-    <div class="hair">hair</div>
-    <div class="nuleaf">nuleaf</div>
-    <div class="blog">blog</div>
-    <div class="battle">battle</div>
-    <div class="itasu">itasu</div>
+    <div class="daybrk">
+      <img src="assets/projects/daybreak_home.png" alt="">
+    </div>
+    <div class="hair">
+      <img src="assets/projects/hair_home.png" alt="">
+    </div>
+    <div class="nuleaf">
+      <img src="assets/projects/nuleaf_cart.png
+      " alt="">
+    </div>
+    <div class="blog">
+      <img src="assets/projects/blog_home.png" alt="">
+    </div>
+    <div class="battle">
+      <img src="assets/projects/battleship_game.png" alt="">
+    </div>
+    <div class="itasu">
+      <img src="assets/projects/itasu.png" alt="">
+    </div>
   </div>
 </section>
 
@@ -54,9 +67,14 @@
     gap: 40px;
   }
   .projects-grid div {
-    height: 350px;
-    width: 500px;
+    height: 340px;
+    width: 600px;
     background: white;
     border: red solid thick;
+  }
+  /**Images*/
+  img {
+    object-fit: fill;
+    width: 100%;
   }
 </style>
