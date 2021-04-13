@@ -51,7 +51,8 @@
 
 <style>
   .about-wrapper {
-    height: 100vh;
+    height: calc(100vh + auto);
+    padding-bottom: 20px;
     background: black;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }

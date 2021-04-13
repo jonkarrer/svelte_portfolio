@@ -117,6 +117,7 @@
     font-family: Arial, Helvetica, sans-serif;
     background: black;
     overflow: scroll;
+    height: calc(auto + 100vh);
   }
   .title-block {
     display: block;
