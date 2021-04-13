@@ -152,7 +152,6 @@
     height: 340px;
     width: 600px;
     background: white;
-    border: red solid thick;
     position: relative;
   }
   .projects-grid div:hover > .overlay {
@@ -163,7 +162,7 @@
     background: rgba(0,0,0,.8);
     z-index: 1;
     width: 100%;
-    height: 100%;
+    height: 101%;
     left: 0;
     text-align: center;
     color: white;
@@ -194,12 +193,10 @@
   .source img:hover {
     cursor: pointer;
   }
-  /**Images*/
   img {
     object-fit: fill;
     width: 100%;
   }
- 
   /**Regular Screen*/
   @media (max-width: 1320px) {
     .projects-grid {
@@ -212,7 +209,6 @@
       height: 227px;
       width: 400px;
       background: white;
-      border: blue solid thick;
       position: relative;
     }
     .overlay h1 {
@@ -248,7 +244,6 @@
       height: 270px;
       width: 475px;
       background: white;
-      border: green solid thick;
       position: relative;
     }
     .overlay h1 {
@@ -277,14 +272,13 @@
       display: grid;
       grid-template-columns: auto;
       grid-template-rows: auto auto auto auto;
-      gap: 20px;
+      gap: 25px;
       margin-bottom: 30px;
     }
     .projects-grid div {
       height: 181px;
       width: 320px;
       background: white;
-      border: pink solid thick;
       position: relative;
     }
     .overlay h1 {
@@ -319,7 +313,7 @@
       height: 455px;
       width: 800px;
       background: white;
-      border: red solid thick;
+      border: var(--theme-cyan) solid thick;
       position: relative;
     }
     .overlay h1 {
