@@ -121,25 +121,26 @@
   .title-block {
     display: block;
     margin: auto;
-    width: 50%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 3em;
+    padding: 3em 0;
   }
   h1.title {
     color: white;
-    font-size: 4em;
+    font-size: clamp(3em, 9vw, 9em);
+    margin-bottom: 20px;
   }
   q {
     color: white;
-    font-size: 2em;
-    display: block;
+    font-size: clamp(1em, 3vw, 2.5em);
+    text-align: center;
   }
   cite {
     color: white;
-    font-size: 1.5em;
+    font-size: clamp(1em, 3vw, 2.5em);
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
   .projects-grid {
@@ -237,7 +238,7 @@
       display: grid;
       grid-template-columns: auto;
       grid-template-rows: auto auto auto auto;
-      gap: 25px;
+      gap: 30px;
       margin-bottom: 30px;
     }
     .projects-grid div {
@@ -313,7 +314,6 @@
       height: 455px;
       width: 800px;
       background: white;
-      border: var(--theme-cyan) solid thick;
       position: relative;
     }
     .overlay h1 {

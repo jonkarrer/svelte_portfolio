@@ -36,7 +36,7 @@ let coords = spring({x: 0, y: 0}, {
   height: 100vh;
   width: 100vw;
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 150px auto 150px;
   position: relative;
   transition: all 0.5s;
   background-color: var(--theme-dark-grey);
