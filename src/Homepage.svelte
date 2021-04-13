@@ -74,7 +74,7 @@
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
   a.email {
-    font-size: 6vw;
+    font-size: calc(6vw + 1vh);
     color: white;
     z-index: 4;
   }
