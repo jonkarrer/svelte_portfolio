@@ -172,11 +172,11 @@
       width: 100vw;
       display: flex;
       flex-direction: column;
-      grid-template-columns: 150px auto 150px;
       position: relative;
       transition: all 0.5s;
       background-color: var(--theme-dark-grey);
-      overflow: scroll;
+      overflow-x: hidden;
+      overflow-y: hidden;
     }
     svg {
       display: none;

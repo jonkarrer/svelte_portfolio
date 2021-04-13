@@ -1,7 +1,6 @@
 <script lang="ts">
 	import Splash from './Splash.svelte'
   import Homepage from './Homepage.svelte';
-	let name = 'Jon';
 </script>
 
 <Splash />
