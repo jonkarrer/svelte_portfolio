@@ -162,8 +162,8 @@
     position: absolute;
     background: rgba(0,0,0,.8);
     z-index: 1;
-    width: 600px;
-    height: 341px;
+    width: 100%;
+    height: 100%;
     left: 0;
     text-align: center;
     color: white;
@@ -198,5 +198,148 @@
   img {
     object-fit: fill;
     width: 100%;
+  }
+ 
+  /**Regular Screen*/
+  @media (max-width: 1320px) {
+    .projects-grid {
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-template-rows: auto auto auto auto;
+      gap: 25px;
+    }
+    .projects-grid div {
+      height: 227px;
+      width: 400px;
+      background: white;
+      border: blue solid thick;
+      position: relative;
+    }
+    .overlay h1 {
+      margin: 10px 0;
+      font-size: 1.5em;
+    }
+    .overlay h2 {
+      margin-bottom: 10px;
+      font-size: 1em;
+    }
+    .overlay p {
+      margin: 0 20px;
+      line-height: 1.4;
+      font-size: .85em;
+      margin-bottom: 20px;
+    }
+    .source img {
+      object-fit: fill;
+      width: 30px;
+      margin: 0 10px;
+    }
+  }
+  /**Small Screen*/
+  @media (max-width: 860px) {
+    .projects-grid {
+      display: grid;
+      grid-template-columns: auto;
+      grid-template-rows: auto auto auto auto;
+      gap: 25px;
+      margin-bottom: 30px;
+    }
+    .projects-grid div {
+      height: 270px;
+      width: 475px;
+      background: white;
+      border: green solid thick;
+      position: relative;
+    }
+    .overlay h1 {
+      margin: 15px 0;
+      font-size: 1.7em;
+    }
+    .overlay h2 {
+      margin-bottom: 15px;
+      font-size: 1.1em;
+    }
+    .overlay p {
+      margin: 0 20px;
+      line-height: 1.4;
+      font-size: 1em;
+      margin-bottom: 20px;
+    }
+    .source img {
+      object-fit: fill;
+      width: 35px;
+      margin: 0 10px;
+    }
+  }
+  /**Mobile*/
+  @media (max-width: 500px) {
+    .projects-grid {
+      display: grid;
+      grid-template-columns: auto;
+      grid-template-rows: auto auto auto auto;
+      gap: 20px;
+      margin-bottom: 30px;
+    }
+    .projects-grid div {
+      height: 181px;
+      width: 320px;
+      background: white;
+      border: pink solid thick;
+      position: relative;
+    }
+    .overlay h1 {
+      margin: 10px 0;
+      font-size: 1em;
+    }
+    .overlay h2 {
+      margin-bottom: 10px;
+      font-size: .7em;
+    }
+    .overlay p {
+      margin: 0 20px;
+      line-height: 1.4;
+      font-size: .7em;
+      margin-bottom: 10px;
+    }
+    .source img {
+      object-fit: fill;
+      width: 25px;
+      margin: 0 10px;
+    }
+  }
+  /**Super Wide Screen*/
+  @media (min-width: 2000px) {
+    .projects-grid {
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-template-rows: auto auto auto auto;
+      gap: 80px;
+    }
+    .projects-grid div {
+      height: 455px;
+      width: 800px;
+      background: white;
+      border: red solid thick;
+      position: relative;
+    }
+    .overlay h1 {
+      margin: 30px 0;
+      font-size: 3em;
+    }
+    .overlay h2 {
+      margin-bottom: 30px;
+      font-size: 1.6em;
+    }
+    .overlay p {
+      margin: 0 50px;
+      line-height: 1.4;
+      font-size: 1.6em;
+      margin-bottom: 30px;
+    }
+    .source img {
+      object-fit: fill;
+      width: 60px;
+      margin: 0 10px;
+    }
   }
 </style>
