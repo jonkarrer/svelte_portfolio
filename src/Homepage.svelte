@@ -49,7 +49,6 @@
   </div>
 </div>
 
-
 <style>
   .homepage {
     height: 100vh;

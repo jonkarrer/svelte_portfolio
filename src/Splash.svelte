@@ -44,6 +44,7 @@
     </svg>
   </div>
 </section>
+
 <style>
 .stripes_desktop-version {
   background: black;
