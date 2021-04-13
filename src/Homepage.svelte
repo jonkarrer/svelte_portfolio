@@ -74,7 +74,7 @@
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
   a.email {
-    font-size: clamp(2em, 5vw, 8em);
+    font-size: 6vw;
     color: white;
     z-index: 4;
   }
@@ -103,7 +103,7 @@
     align-items: center;
     justify-content: flex-start;
     height: 100vh;
-    font-size: clamp(2em, 5vw, 6em);
+    font-size: clamp(2.5em, 5vw, 6em);
     color: var(--theme-cyan);
   }
   .about-title {
@@ -111,7 +111,7 @@
     align-items: center;
     justify-content: flex-end;
     height: 100vh;
-    font-size: clamp(2em, 5vw, 6em);
+    font-size: clamp(2.5em, 5vw, 6em);
     color: var(--theme-cyan);
   }
   .project-title p, .about-title p {
@@ -152,21 +152,20 @@
   .close-about-slide {
     color:white;
     position: absolute;
-    font-size: clamp(1.3em, 3vw, 3em);
+    font-size: calc(3vw + 1vh);
     margin: 10px 30px;
   }
   .close-project-slide {
     color:white;
     position: absolute;
-    font-size: clamp(1.3em, 3vw, 3em);
+    font-size: calc(3vw + 1vh);
     margin: 10px 30px;
     right: 0;
   }
   .close-about-slide, .close-project-slide:hover {
     cursor: pointer;
   }
-
-  @media (max-width: 600px) {
+  @media (max-width: 700px) {
     .homepage {
       height: 100vh;
       width: 100vw;
@@ -180,6 +179,12 @@
     }
     svg {
       display: none;
+    }
+    .project-title {
+      margin-top: 10px;
+    }
+    .about-title {
+      margin-bottom: 10px;
     }
   }
 </style>

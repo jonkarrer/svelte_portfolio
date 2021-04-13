@@ -51,10 +51,14 @@
 
 <style>
   .about-wrapper {
-    height: calc(100vh + auto);
+    height: 100vh;
     padding-bottom: 20px;
     background: black;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   .profile-pic-wrapper{
     padding: 2em;
@@ -128,6 +132,9 @@
     flex-direction: column;
   }
   @media (max-width: 800px) {
+    .about-wrapper {
+      height: auto;
+    }
     .card-wrapper {
       display: grid;
       width: 85%;

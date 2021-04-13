@@ -120,8 +120,6 @@
   }
   .title-block {
     display: block;
-    margin: auto;
-    width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -130,17 +128,17 @@
   }
   h1.title {
     color: var(--lite-cyan);
-    font-size: clamp(3em, 9vw, 9em);
+    font-size: 10vw;
     margin-bottom: 20px;
   }
   q {
     color: white;
-    font-size: clamp(1em, 3vw, 2.5em);
+    font-size: 3vw;
     text-align: center;
   }
   cite {
     color: white;
-    font-size: clamp(1em, 3vw, 2.5em);
+    font-size: 3vw;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
   .projects-grid {
@@ -269,6 +267,9 @@
   }
   /**Mobile*/
   @media (max-width: 500px) {
+    .overlay {
+      display: block;
+    }
     .projects-grid {
       display: grid;
       grid-template-columns: auto;
