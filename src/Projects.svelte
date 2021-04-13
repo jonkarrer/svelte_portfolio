@@ -1,5 +1,3 @@
-<script></script>
-
 <section class="projects-wrapper">
   <div class="title-block">
     <h1 class="title">Projects</h1>
@@ -117,6 +115,8 @@
     justify-content: center;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
+    background: black;
+    overflow-y: scroll;
   }
   .title-block {
     display: block;
@@ -129,7 +129,7 @@
     padding: 3em 0;
   }
   h1.title {
-    color: white;
+    color: var(--lite-cyan);
     font-size: clamp(3em, 9vw, 9em);
     margin-bottom: 20px;
   }

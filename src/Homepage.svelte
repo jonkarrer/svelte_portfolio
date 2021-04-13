@@ -2,14 +2,19 @@
   import Projects from './Projects.svelte'
   import About from './About.svelte'
   import {spring} from 'svelte/motion'
-let coords = spring({x: 0, y: 0}, {
-  stiffness: 0.2,
-	damping: 0.25
-});
+  let slideProjectsOut = false;
+  let slideAboutOut = false;
+  let coords = spring({x: 0, y: 0}, {
+    stiffness: 0.2,
+    damping: 0.25
+  });
   let size = spring(10);
 </script>
+
 <div class="homepage">
-  <div class="project-title"><p style="transform: rotate(90deg)">Projects</p></div>
+  <div class="project-title">
+    <p style="transform: rotate(90deg)" on:click="{() => slideProjectsOut=true}">Projects</p>
+  </div>
   <div class="contact-wrapper">
     <a href="mailto: karrerjon@gmail.com" class="email">karrerjon@gmail.com</a>
     <div class="social-media-container">
@@ -18,7 +23,9 @@ let coords = spring({x: 0, y: 0}, {
       <div class="icon-container"><a href="https://www.linkedin.com/in/jon-karrer-6b8a18186/"><img src="assets/white-icons/2.svg" alt="linkedin"></a></div>
     </div>
   </div>
-  <div class="about-title"><p style="transform: rotate(-90deg)">About</p></div>
+  <div class="about-title">
+    <p style="transform: rotate(-90deg)" on:click="{() => slideAboutOut=true}">About</p>
+  </div>
   <svg
     on:mousemove="{e => coords.set({ x: e.clientX, y: e.clientY }, {
 
@@ -28,10 +35,38 @@ let coords = spring({x: 0, y: 0}, {
   >
     <circle cx={$coords.x} cy={$coords.y} r={$size}/>
   </svg>
+  <div class="slide-left" class:slideProjectsOut>
+    <div class="close-project-slide" on:click="{() => slideProjectsOut=false}">
+      Back
+    </div>
+    <Projects />
+  </div>
+  <div class="slide-right" class:slideAboutOut>
+    <div class="close-about-slide" on:click="{() => slideAboutOut=false}">
+      Back
+    </div>
+    <About />
+  </div>
 </div>
-<Projects />
-<About />
+
+
 <style>
+.close-about-slide {
+  color:white;
+  position: absolute;
+  font-size: clamp(1em, 3vw, 3em);
+  margin: 10px 30px;
+}
+.close-project-slide {
+  color:white;
+  position: absolute;
+  font-size: clamp(1em, 3vw, 3em);
+  margin: 10px 30px;
+  right: 0;
+}
+.close-about-slide, .close-project-slide:hover {
+  cursor: pointer;
+}
 .homepage {
   height: 100vh;
   width: 100vw;
@@ -98,4 +133,30 @@ a.email {
 }
 svg { width: 100vw; height: 100vh; position: absolute; }
 circle { fill: var(--theme-cyan) }
+
+/**Handle Slide animations*/
+.slide-left {
+    position: absolute;
+    top:0;
+    width: 100vw;
+    transform: translateX(-100vw);
+    transition: all 1s ease;
+    z-index: 20;
+    overflow-y: scroll;
+  }
+  .slide-left.slideProjectsOut {
+    transform: translateX(0);
+  }
+  .slide-right {
+    position: absolute;
+    top:0;
+    width: 100vw;
+    transform: translateX(100vw);
+    transition: all 1s ease;
+    z-index: 20;
+    overflow-y: scroll;
+  }
+  .slide-right.slideAboutOut {
+    transform: translateX(0);
+  }
 </style>

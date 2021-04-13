@@ -1,5 +1,3 @@
-<script></script>
-
 <section class="about-wrapper">
   <div class="profile-pic-wrapper">
     <div class="profile-pic">
@@ -45,7 +43,6 @@
             <li>5A Varsity Football, 4 yrs, Team Captain</li>
             <li>Div 1 Wrestling, 2 yrs, 4th in State</li>
           </ul>
-        
         </li>
       </ul>
     </div>
@@ -54,6 +51,8 @@
 
 <style>
   .about-wrapper {
+    height: 100vh;
+    background: black;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
   .profile-pic-wrapper{
@@ -88,6 +87,10 @@
     text-align: center;
     margin: 20px 0;
     font-size: clamp(1.6em, 2.2vw, 3em);
+    color: var(--theme-purple);
+  }
+  h3 {
+    color: var(--theme-purple);
   }
   p {
     font-size: clamp(1em, 1.2vw, 1.5em);
@@ -145,10 +148,10 @@
       border-radius: 50%;
       margin: auto;
     }
-  .profile-pic img {
-    object-fit: contain;
-    height: 400px;
-    border-radius: 50%;
-  }
+    .profile-pic img {
+      object-fit: contain;
+      height: 400px;
+      border-radius: 50%;
+    }
   }
 </style>
