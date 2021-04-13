@@ -116,7 +116,7 @@
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
     background: black;
-    overflow-y: scroll;
+    overflow: scroll;
   }
   .title-block {
     display: block;

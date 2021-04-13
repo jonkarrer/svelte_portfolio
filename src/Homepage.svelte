@@ -51,22 +51,6 @@
 
 
 <style>
-.close-about-slide {
-  color:white;
-  position: absolute;
-  font-size: clamp(1em, 3vw, 3em);
-  margin: 10px 30px;
-}
-.close-project-slide {
-  color:white;
-  position: absolute;
-  font-size: clamp(1em, 3vw, 3em);
-  margin: 10px 30px;
-  right: 0;
-}
-.close-about-slide, .close-project-slide:hover {
-  cursor: pointer;
-}
 .homepage {
   height: 100vh;
   width: 100vw;
@@ -75,6 +59,7 @@
   position: relative;
   transition: all 0.5s;
   background-color: var(--theme-dark-grey);
+  overflow: scroll;
 }
 .contact-wrapper {
   display: flex;
@@ -159,4 +144,20 @@ circle { fill: var(--theme-cyan) }
   .slide-right.slideAboutOut {
     transform: translateX(0);
   }
+  .close-about-slide {
+  color:white;
+  position: absolute;
+  font-size: clamp(1em, 3vw, 3em);
+  margin: 10px 30px;
+}
+.close-project-slide {
+  color:white;
+  position: absolute;
+  font-size: clamp(1em, 3vw, 3em);
+  margin: 10px 30px;
+  right: 0;
+}
+.close-about-slide, .close-project-slide:hover {
+  cursor: pointer;
+}
 </style>
