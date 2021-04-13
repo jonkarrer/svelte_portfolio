@@ -20,7 +20,7 @@
           <a href="https://jonkarrer.github.io/daybreak-nutrition/"><img src="assets/white-icons/view.svg" alt="icon to view"></a>
         </span>
       </span>
-      <img src="assets/projects/daybreak_home.png" alt="homepage of daybreak nutrition">
+      <img src="assets/projects/daybreak-icons.jpg" alt="homepage of daybreak nutrition">
     </div>
     <div class="hair">
       <span class="overlay">
@@ -37,7 +37,7 @@
           <a href="https://hairbyamandag.com"><img src="assets/white-icons/view.svg" alt="preview icon"></a>
         </span>
       </span>
-      <img src="assets/projects/hair_home.png" alt="">
+      <img src="assets/projects/hair_home.jpg" alt="">
     </div>
     <div class="nuleaf">
       <span class="overlay">
@@ -53,7 +53,7 @@
           <a href="https://jonkarrer.github.io/capstone-project/"><img src="assets/white-icons/view.svg" alt="preview icon"></a>
         </span>
       </span>
-      <img src="assets/projects/nuleaf_cart.png
+      <img src="assets/projects/nuleaf_cart.jpg
       " alt="">
     </div>
     <div class="blog">
@@ -70,7 +70,7 @@
           <a href="https://www.chewedup.blog"><img src="assets/white-icons/view.svg" alt="preview icon"></a>
         </span>
       </span>
-      <img src="assets/projects/blog_home.png" alt="">
+      <img src="assets/projects/blog_home.jpg" alt="">
     </div>
     <div class="battle">
       <span class="overlay">
@@ -86,7 +86,7 @@
           <a href="https://jonkarrer.github.io/battleship/"><img src="assets/white-icons/view.svg" alt="preview icon"></a>
         </span>
       </span>
-      <img src="assets/projects/battleship_game.png" alt="">
+      <img src="assets/projects/battleship_game.jpg" alt="">
     </div>
     <div class="itasu">
       <span class="overlay">
@@ -103,7 +103,7 @@
           <a href="https://jonkarrer.github.io/itasu/"><img src="assets/white-icons/view.svg" alt="preview icon"></a>
         </span>
       </span>
-      <img src="assets/projects/itasu.png" alt="">
+      <img src="assets/projects/itasu.jpg" alt="">
     </div>
   </div>
 </section>
