@@ -152,13 +152,13 @@
   .close-about-slide {
     color:white;
     position: absolute;
-    font-size: calc(3vw + 1vh);
+    font-size: 3.5vw;
     margin: 10px 30px;
   }
   .close-project-slide {
     color:white;
     position: absolute;
-    font-size: calc(3vw + 1vh);
+    font-size: 3.5vw;
     margin: 10px 30px;
     right: 0;
   }

@@ -128,7 +128,7 @@
   }
   h1.title {
     color: var(--lite-cyan);
-    font-size: 10vw;
+    font-size: calc(10vw + 1vh);
     margin-bottom: 20px;
   }
   q {
