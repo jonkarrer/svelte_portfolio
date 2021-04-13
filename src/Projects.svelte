@@ -7,7 +7,7 @@
   <div class="projects-grid">
     <div class="daybrk">
       <span class="overlay">
-        <h1>Daybreak Nutrtion</h1>
+        <h1>Daybreak Nutrition</h1>
         <h2>HTML CSS JS</h2>
         <p>
           My second paid project without a framework. 
@@ -16,11 +16,11 @@
           Took about 3 days to construct this project.
         </p>
         <span class="source">
-          <img src="assets/white-icons/1.svg" alt="">
-          <img src="assets/white-icons/view.svg" alt="">
+          <a href="https://github.com/jonkarrer/daybreak-nutrition"><img src="assets/white-icons/1.svg" alt="github icon"></a>
+          <a href="https://jonkarrer.github.io/daybreak-nutrition/"><img src="assets/white-icons/view.svg" alt="icon to view"></a>
         </span>
       </span>
-      <img src="assets/projects/daybreak_home.png" alt="">
+      <img src="assets/projects/daybreak_home.png" alt="homepage of daybreak nutrition">
     </div>
     <div class="hair">
       <span class="overlay">
@@ -33,8 +33,8 @@
           Took about 1 week to construct this project.
         </p>
         <span class="source">
-          <img src="assets/white-icons/1.svg" alt="">
-          <img src="assets/white-icons/view.svg" alt="">
+          <a href="https://github.com/jonkarrer/amanda_website"><img src="assets/white-icons/1.svg" alt="github icon"></a>
+          <a href="https://hairbyamandag.com"><img src="assets/white-icons/view.svg" alt="preview icon"></a>
         </span>
       </span>
       <img src="assets/projects/hair_home.png" alt="">
@@ -49,8 +49,8 @@
           I plan to expand this project with a recipe database and admin portal.
         </p>
         <span class="source">
-          <img src="assets/white-icons/1.svg" alt="">
-          <img src="assets/white-icons/view.svg" alt="">
+          <a href="https://github.com/jonkarrer/capstone-project"><img src="assets/white-icons/1.svg" alt="github icon"></a>
+          <a href="https://jonkarrer.github.io/capstone-project/"><img src="assets/white-icons/view.svg" alt="preview icon"></a>
         </span>
       </span>
       <img src="assets/projects/nuleaf_cart.png
@@ -66,8 +66,8 @@
           and hosted on heroku. First attempt at modern fullstack.
         </p>
         <span class="source">
-          <img src="assets/white-icons/1.svg" alt="">
-          <img src="assets/white-icons/view.svg" alt="">
+          <a href="https://github.com/jonkarrer/chewed_up"><img src="assets/white-icons/1.svg" alt="github icon"></a>
+          <a href="https://www.chewedup.blog"><img src="assets/white-icons/view.svg" alt="preview icon"></a>
         </span>
       </span>
       <img src="assets/projects/blog_home.png" alt="">
@@ -82,8 +82,8 @@
           vertical ship placement in the future.
         </p>
         <span class="source">
-          <img src="assets/white-icons/1.svg" alt="">
-          <img src="assets/white-icons/view.svg" alt="">
+          <a href="https://github.com/jonkarrer/battleship"><img src="assets/white-icons/1.svg" alt="github icon"></a>
+          <a href="https://jonkarrer.github.io/battleship/"><img src="assets/white-icons/view.svg" alt="preview icon"></a>
         </span>
       </span>
       <img src="assets/projects/battleship_game.png" alt="">
@@ -99,8 +99,8 @@
           tools to create this one.
         </p>
         <span class="source">
-          <img src="assets/white-icons/1.svg" alt="">
-          <img src="assets/white-icons/view.svg" alt="">
+          <a href="https://github.com/jonkarrer/itasu"><img src="assets/white-icons/1.svg" alt="github icon"></a>
+          <a href="https://jonkarrer.github.io/itasu/"><img src="assets/white-icons/view.svg" alt="preview icon"></a>
         </span>
       </span>
       <img src="assets/projects/itasu.png" alt="">

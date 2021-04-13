@@ -174,5 +174,8 @@
       background-color: var(--theme-dark-grey);
       overflow: scroll;
     }
+    svg {
+      display: none;
+    }
   }
 </style>
