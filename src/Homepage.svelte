@@ -11,7 +11,7 @@
   let size = spring(10);
 </script>
 
-<div class="homepage">
+<div class="homepage" class:slideProjectsOut>
   <div class="project-title">
     <p style="transform: rotate(90deg)" on:click="{() => slideProjectsOut=true}">Projects</p>
   </div>
@@ -59,7 +59,11 @@
     position: relative;
     transition: all 0.5s;
     background-color: var(--theme-dark-grey);
-    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  .homepage.slideProjectsOut {
+    overflow-y: scroll;
   }
   .contact-wrapper {
     display: flex;
@@ -127,7 +131,7 @@
     transform: translateX(-100vw);
     transition: all 1s ease;
     z-index: 20;
-    overflow-y: scroll;
+    height: auto;
   }
   .slide-left.slideProjectsOut {
     transform: translateX(0);
