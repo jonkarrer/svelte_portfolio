@@ -5,6 +5,22 @@
     <cite>- Osho</cite>
   </div>
   <div class="projects-grid">
+    <div class="roofing">
+      <span class="overlay">
+        <h1>Advanced Roofing</h1>
+        <h2>HTML CSS JS</h2>
+        <p>
+          Teamed up with a designer to build out a website he created on 
+          figma. Took me a day to complete, and he really enjoyed the result.
+          We look foward to working again soon.
+        </p>
+        <span class="source">
+          <a href="https://github.com/jonkarrer/advanced_roofing"><img src="assets/white-icons/1.svg" alt="github icon"></a>
+          <a href="https://jonkarrer.github.io/advanced_roofing/"><img src="assets/white-icons/view.svg" alt="icon to view"></a>
+        </span>
+      </span>
+      <img src="assets/projects/roofing.jpg" alt="homepage of advanced roofing">
+    </div>
     <div class="daybrk">
       <span class="overlay">
         <h1>Daybreak Nutrition</h1>
