@@ -21,6 +21,21 @@
       </span>
       <img src="assets/projects/roofing.jpg" alt="homepage of advanced roofing">
     </div>
+    <div class="countries_api">
+      <span class="overlay">
+        <h1>Countries</h1>
+        <h2>React Tailwind API</h2>
+        <p>
+          I wanted to challenge myself with a project that manipulates API data. I added a Dark Mode switch, filter and search
+          capabilities, and responsiveness. "Tailwind" is a new popular CSS framework.
+        </p>
+        <span class="source">
+          <a href="https://github.com/jonkarrer/country_api"><img src="assets/white-icons/1.svg" alt="github icon"></a>
+          <a href="https://angry-villani-a63212.netlify.app"><img src="assets/white-icons/view.svg" alt="icon to view"></a>
+        </span>
+      </span>
+      <img src="assets/projects/countries.jpg" alt="homepage of countries api">
+    </div>
     <div class="daybrk">
       <span class="overlay">
         <h1>Daybreak Nutrition</h1>
