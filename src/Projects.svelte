@@ -148,6 +148,7 @@
     font-family: Arial, Helvetica, sans-serif;
     background: black;
     height: calc(auto + 100vh);
+    padding-bottom: 50px;
   }
   .title-block {
     display: block;
