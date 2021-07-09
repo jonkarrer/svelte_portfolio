@@ -52,7 +52,6 @@
 <style>
   .homepage {
     height: 100vh;
-    width: 100vw;
     display: grid;
     grid-template-columns: 150px auto 150px;
     position: relative;

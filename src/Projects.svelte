@@ -65,10 +65,10 @@
         </p>
         <span class="source">
           <a href="https://github.com/jonkarrer/amanda_website"><img src="assets/white-icons/1.svg" alt="github icon"></a>
-          <a href="https://hairbyamandag.com"><img src="assets/white-icons/view.svg" alt="preview icon"></a>
+          <a href="https://hairamandag.com"><img src="assets/white-icons/view.svg" alt="preview icon"></a>
         </span>
       </span>
-      <img src="assets/projects/hair_home.jpg" alt="">
+      <img src="assets/projects/hair_home.png" alt="">
     </div>
     <div class="nuleaf">
       <span class="overlay">
