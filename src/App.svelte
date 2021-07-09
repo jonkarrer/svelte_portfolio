@@ -1,9 +1,6 @@
 <script lang="ts">
-	import Splash from './Splash.svelte'
   import Homepage from './Homepage.svelte';
 </script>
-
-<Splash />
 <main id="desktop">
 	<Homepage />
 </main>
