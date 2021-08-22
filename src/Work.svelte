@@ -2,13 +2,9 @@
   import Project from './components/Project.svelte'
 </script>
 
-<section class="projects-wrapper">
-  <div class="title-block">
-    <h1 class="title">Projects</h1>
-    <q>to be creative is to be in love with life</q>
-    <cite>- Osho</cite>
-  </div>
-  <div class="projects-grid">
+<section class="projects">
+
+  <div class="wrapper">
     <Project 
       title= "Market Maker" 
       tools="Next.js Tailwind" 
@@ -65,83 +61,5 @@
 </section>
 
 <style>
-  .projects-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
-    background: black;
-    height: calc(auto + 100vh);
-    padding-bottom: 50px;
-  }
-  .title-block {
-    display: block;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 3em 0;
-  }
-  h1.title {
-    color: var(--lite-cyan);
-    font-size: calc(10vw + 1vh);
-    margin-bottom: 20px;
-  }
-  q {
-    color: white;
-    font-size: 3vw;
-    text-align: center;
-  }
-  cite {
-    color: white;
-    font-size: 3vw;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  }
-  .projects-grid {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto auto auto;
-    gap: 40px;
-  }
-  
-  /**Regular Screen*/
-  @media (max-width: 1320px) {
-    .projects-grid {
-      display: grid;
-      grid-template-columns: auto auto;
-      grid-template-rows: auto auto auto auto;
-      gap: 25px;
-    }
-  }
-  /**Small Screen*/
-  @media (max-width: 860px) {
-    .projects-grid {
-      display: grid;
-      grid-template-columns: auto;
-      grid-template-rows: auto auto auto auto;
-      gap: 30px;
-      margin-bottom: 30px;
-    }
-  }
-  /**Mobile*/
-  @media (max-width: 500px) {
-    .projects-grid {
-      display: grid;
-      grid-template-columns: auto;
-      grid-template-rows: auto auto auto auto;
-      gap: 25px;
-      margin-bottom: 30px;
-    }
-    
-  }
-  /**Super Wide Screen*/
-  @media (min-width: 2000px) {
-    .projects-grid {
-      display: grid;
-      grid-template-columns: auto auto;
-      grid-template-rows: auto auto auto auto;
-      gap: 80px;
-    }
-  }
+ 
 </style>

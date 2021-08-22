@@ -1,14 +1,14 @@
-<script lang="ts">
-  import Homepage from './Homepage.svelte';
+<script>
+  import Home from "./Home.svelte"
 </script>
-<main id="desktop">
-	<Homepage />
+
+<main>
+  <Home />
+
 </main>
 
 <style>
-	#desktop {
-  width: 100vw;
-  background: var(--main-grey);
-  overflow: hidden;
-}
+  main {
+    overflow: hidden;
+  }
 </style>
