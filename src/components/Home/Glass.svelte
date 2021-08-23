@@ -6,7 +6,7 @@
   }
 </script>
 
-<svelte:window on:mousewheel={moveGlass}/>
+<svelte:window on:touchmove={moveGlass} on:mousewheel={moveGlass}/>
 
 <div class="frosted_glass" style="--theme-move: {position}%">
 
