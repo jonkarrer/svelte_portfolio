@@ -20,7 +20,7 @@
     right: var(--theme-move);
     margin: auto;
     width: 50vw;
-    height: 80vh;
+    height: 85vh;
     background-color: rgba(255, 255, 255, .2);  
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -29,6 +29,20 @@
     -moz-transition: all 2s ease;
     transition: all 2s ease;
     z-index: 10;
-    min-height: 600px;
   }
+  /*Md*/
+@media (min-width: 768px) {
+  .frosted_glass {
+    min-height: 500px;
+    height: 80vh;
+  }
+}
+/*Lg*/
+@media (min-width: 1024px) {
+  .frosted_glass {
+    min-height: 600px;
+    max-width: 1000px;
+  }
+}
+  
 </style>

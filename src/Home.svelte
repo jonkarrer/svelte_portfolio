@@ -1,6 +1,6 @@
 <script lang="ts">
   import  {Glass, Rain, Hello}  from './components/Home/index.js';
-  import About from './About.svelte';
+  import About from './components/About/About.svelte';
 </script>
 
 <section class="home">
@@ -10,20 +10,21 @@
     <Hello />
     <About />
   </div>
-
-
 </section>
 
 <style>
-   .wrapper {
+  .home {
+    overflow: hidden;
+  }
+  .wrapper {
     position: relative;
     background: var(--blue);
     height: 100vh;
   }
   /*Lg*/
-@media (min-width: 1024px) {
-  .wrapper {
-    min-height: 600px;
+  @media (min-width: 1024px) {
+    .wrapper {
+      min-height: 600px;
+    }
   }
-}
 </style>
