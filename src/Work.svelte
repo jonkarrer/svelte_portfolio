@@ -1,5 +1,6 @@
 <script>
-  import {scrollToWorkPage} from "./utils/store"
+  import Project from "./components/Work/Project.svelte";
+  import { scrollToWorkPage } from "./utils/store"
 
   let topPosition = 100;
   $: if ($scrollToWorkPage) {
@@ -12,7 +13,9 @@
 
 <section style="--theme-position: {topPosition}vh">
   <div class="wrapper">
-    <h1>Projects</h1>
+  <Project />
+    
+
   </div>
 </section>
 
@@ -25,11 +28,11 @@
     transition: top 2s ease;
     z-index: 50;
     background-color: white;
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
   }
   .wrapper {
     height: 4000px;
-    background: var(--wheat);
     width: 100%;
   }
 </style>
