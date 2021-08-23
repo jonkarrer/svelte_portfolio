@@ -34,7 +34,7 @@
     background-color: rgba(255, 255, 255, .2);  
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-
+    
     display: grid;
     gap: 30px;
 

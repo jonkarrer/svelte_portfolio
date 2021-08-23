@@ -1,6 +1,5 @@
 <script>
   import {scrollToWorkPage} from "../../utils/store"
-  import Contact from "./Contact.svelte";
   export let x;
 
   function scrollDown() {
