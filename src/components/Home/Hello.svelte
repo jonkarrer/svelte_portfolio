@@ -16,7 +16,7 @@
 
 </script>
 
-<svelte:window on:mousewheel={moveHello}/>
+<svelte:window on:touchmove={moveHello} on:mousewheel={moveHello}/>
 
 <div class="hello" style="--theme-x: {x}vw">
   <h1>Hello,</h1>
