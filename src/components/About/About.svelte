@@ -12,7 +12,7 @@
   }
 </script>
 
-<svelte:window on:touchmove={moveAbout} on:mousewheel={moveAbout}/>
+<svelte:window on:touchmove={moveAbout} on:wheel={moveAbout}/>
 
 <section>
   <AboutTitle x={x} />  

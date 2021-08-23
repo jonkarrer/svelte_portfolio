@@ -31,15 +31,21 @@
     margin: auto;
     padding: 30px 15px;
 
-    background-color: rgba(255, 255, 255, .2);  
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    /** Frosted Glass fallback */
+    background-color: hsla(200, 50%, 50%, .8);
     
     display: grid;
     gap: 30px;
 
     color: white;
     z-index: 20;
+  }
+  @supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+    article {
+      background-color: rgba(255, 255, 255, .2);  
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+    }
   }
   .github {
     position: absolute; right: 30px; top: 30px;
@@ -52,13 +58,17 @@
   button {
     font-size: 1.4rem;
 
-    padding: 10px 0;
+    height: 60px;
     width: 200px;
 
     background: none; outline: none;
 
     border: white solid thin;
     color: white;
+  }
+  button:hover {
+    cursor: pointer;
+    background-color: hsla(200, 50%, 50%, 1);
   }
   .tablet {
     display: none;
@@ -96,37 +106,66 @@
       align-items: center;
     }
     .tablet {
+      position: absolute;
       display: block;
-      left: -40%;
+      left: -800px;
       height: 85vh;
     }
     .phone {
-      left: 30%;
+      position: absolute;
+      left: 140px;
       right: auto; top: auto; bottom: auto;
       height: 550px;
       bottom: 30px;
+      z-index: 10;
     }
     h3 {
       font-weight: 900;
     }
+    h2 {
+      font-size: 4rem;
+    }
     article {
       text-align: right;
-      margin: 50px;
+      margin: 60px;
+      width: 600px;
+      padding: 40px;
+      gap: 70px;
     }
     p {
-      width: 620px;
+      width: auto;
     }
     .github {
       right: auto;
-      left: 40px;
+      left: 80px;
+      top: 40px;
     }
     button {
       justify-self: end;
+      height: 60px;
+      font-size: 1.6rem;
     }
-    
-
-}
- 
+  }
+  /*Xl*/
+  @media (min-width: 1280px) {
+    .tablet {
+      left: -600px;
+      height: 85vh;
+    }
+    .phone {
+      left: 380px;
+      height: 550px;
+    }
+    h3 {
+      font-weight: 900;
+    }
+    h2 {
+      font-size: 4rem;
+    }
+    article {
+      width: 700px;
+    }
+  }
 
 
 </style>

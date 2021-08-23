@@ -24,11 +24,10 @@
     color: var(--wheat);
     z-index: 20;
     width: 300px;
-    height: max-content;
+    height: auto;
     display: grid;
-    place-items: center;
-    text-align: center;
-    gap: 30px;
+    text-align: left;
+    gap: 50px;
     transform: translateX(var(--theme-article));
     transition: all 2s ease;
   }

@@ -14,7 +14,7 @@ function moveRain() {
 
 </script>
 
-<svelte:window on:touchmove={moveRain} on:mousewheel={moveRain}/>
+<svelte:window on:touchmove={moveRain} on:wheel={moveRain}/>
 <div class="wrapper" >
   <canvas bind:this={canvasElement} id="rain" style="--theme-visible: {visible}"></canvas>
 </div>

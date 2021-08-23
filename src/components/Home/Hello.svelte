@@ -16,7 +16,7 @@
 
 </script>
 
-<svelte:window on:touchmove={moveHello} on:mousewheel={moveHello}/>
+<svelte:window on:touchmove={moveHello} on:wheel={moveHello}/>
 
 <div class="hello" style="--theme-x: {x}vw">
   <h1>Hello,</h1>
@@ -34,7 +34,7 @@
   margin: auto;
   color: var(--red);
   z-index: 10;
-  height: max-content;
+  height: 280px;
   width: min-content;
   font-family: sans-serif;
   font: 900;
