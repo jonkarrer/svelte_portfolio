@@ -10,7 +10,6 @@
 
 <article style="--theme-article: {x}vw">
   <img class="avatar" src="assets/profile/profile.jpg" alt="">
-  <Contact />
   <p>I studied engineering in college and after running my own food business I moved into crafting all things Web. Freelancing gives me the creative freedom to work on small or large projects. I am always looking for new opportunities so please get in touch.</p>
   
   <button on:click={scrollDown}>My Work <img src="assets/arrow.svg" alt=""></button>

@@ -24,15 +24,12 @@
     display: grid;
     place-content: center;
   }
-  img {
-    position: absolute;
-  }
   article {
     position: relative;
+
     width: 90%;
     margin: auto;
-    padding: 30px 10px;
-    z-index: 20;
+    padding: 30px 15px;
 
     background-color: rgba(255, 255, 255, .2);  
     backdrop-filter: blur(10px);
@@ -42,22 +39,24 @@
     gap: 30px;
 
     color: white;
+    z-index: 20;
   }
   .github {
+    position: absolute; right: 30px; top: 30px;
+
     height: 50px;
-    right: 20px;
-    top: 20px;
   }
   .info {
-    display: grid;
-    gap: 20px;
+    display: grid; gap: 20px;
   }
   button {
     font-size: 1.4rem;
+
     padding: 10px 0;
     width: 200px;
-    background: none;
-    outline: none;
+
+    background: none; outline: none;
+
     border: white solid thin;
     color: white;
   }
@@ -65,12 +64,29 @@
     display: none;
   }
   .phone {
-    height: 700px;
+    height: 90vh;
+    position: absolute;
     right: -200px;
     top: 0; bottom: 0;
     margin:auto
   }
- 
+  /*Md*/
+  @media (min-width: 768px) {
+    article {
+      width: 80%;
+      padding: 30px;
+
+      gap: 50px;
+
+      color: white;
+    }
+    p {
+      width: 80%;
+    }
+    .phone {
+      right: -100px;
+    }
+  }
 
   /*Lg*/
   @media (min-width: 1024px) {
@@ -82,26 +98,33 @@
     .tablet {
       display: block;
       left: -40%;
-      height: 700px;
+      height: 85vh;
     }
     .phone {
-      left: 25%;
+      left: 30%;
+      right: auto; top: auto; bottom: auto;
       height: 550px;
       bottom: 30px;
-      z-index: 10;
     }
     h3 {
       font-weight: 900;
-      text-align: center;
     }
     article {
       text-align: right;
       margin: 50px;
     }
-    article p {
-      width: 600px;
+    p {
+      width: 620px;
+    }
+    .github {
+      right: auto;
+      left: 40px;
+    }
+    button {
+      justify-self: end;
     }
     
+
 }
  
 
