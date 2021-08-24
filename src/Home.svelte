@@ -1,6 +1,6 @@
 <script lang="ts">
-  import  {Glass, Rain, Hello}  from './components/Home/index.js';
-  import About from './components/About/About.svelte';
+  import { Glass, Rain, Hello } from "./components/Home/index.js";
+  import About from "./components/About/About.svelte";
 </script>
 
 <section class="home">

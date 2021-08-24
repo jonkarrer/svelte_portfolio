@@ -1,10 +1,13 @@
 <script lang="ts">
-export let bg: string;
-export let blur: string;
+  export let bg: string;
+  export let blur: string;
+  export let alignment: string;
 </script>
 
-<article style="--theme-bg: {bg}; --theme-blur: {blur};">
-  <slot></slot>
+<article
+  style="--theme-bg: {bg}; --theme-blur: {blur}; --theme-align-text: {alignment}"
+>
+  <slot />
 </article>
 
 <style>
@@ -12,7 +15,6 @@ export let blur: string;
     position: relative;
 
     width: 90%;
-    height: 75vh;
     margin: auto;
     padding: 30px 15px;
     display: grid;
@@ -23,11 +25,13 @@ export let blur: string;
 
     color: white;
     z-index: 20;
+
+    text-align: var(--theme-align-text);
   }
-   
+
   @supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
     article {
-      background-color: var(--theme-blur);  
+      background-color: var(--theme-blur);
       backdrop-filter: blur(10px);
       -webkit-backdrop-filter: blur(10px);
     }
@@ -36,7 +40,7 @@ export let blur: string;
   /*Md*/
   @media (min-width: 768px) {
     article {
-      width: 80%;
+      width: 700px;
       padding: 30px;
       gap: 50px;
       color: white;
@@ -47,18 +51,22 @@ export let blur: string;
   @media (min-width: 1024px) {
     article {
       margin: 60px;
-      width: 600px;
+      width: 800px;
       padding: 40px;
-      gap: 70px;
+      gap: 60px;
     }
   }
 
   /*Xl*/
   @media (min-width: 1280px) {
     article {
-      width: 700px;
+      width: 850px;
+    }
+  }
+  /*2xl*/
+  @media (min-width: 1536px) {
+    article {
+      width: 900px;
     }
   }
 </style>
-
-

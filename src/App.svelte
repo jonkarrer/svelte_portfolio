@@ -1,5 +1,5 @@
 <script>
-  import Home from "./Home.svelte"
+  import Home from "./Home.svelte";
   import Work from "./Work.svelte";
 </script>
 
@@ -9,5 +9,4 @@
 </main>
 
 <style>
- 
 </style>
