@@ -1,5 +1,5 @@
 <script>
-  import Project from "./components/Work/Project.svelte";
+  import {Mml, Serenity} from "./components/Work/index.js";
   import { scrollToWorkPage } from "./utils/store"
 
   let topPosition = 100;
@@ -13,8 +13,8 @@
 
 <section style="--theme-position: {topPosition}vh">
   <div class="wrapper">
-  <Project />
-    
+  <Mml />
+  <Serenity />
 
   </div>
 </section>
