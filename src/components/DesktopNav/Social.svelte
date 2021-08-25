@@ -1,22 +1,44 @@
 <menu>
-  <a href="/"><img src="assets/icons/github_lt.svg" alt="github" /></a>
-  <a href="/"><img src="assets/icons/linked_lt.svg" alt="linkedin" /></a>
-  <a href="/"><img src="assets/icons/email_lt.svg" alt="email" /></a>
+  <a
+    style="--content: 'Githhub'"
+    target="_blank"
+    href="https://github.com/jonkarrer"
+    ><img src="assets/icons/github_lt.svg" alt="github" /></a
+  >
+  <a
+    style="--content: 'LinkedIn'"
+    target="_blank"
+    href="https://www.linkedin.com/feed/"
+    ><img src="assets/icons/linked_lt.svg" alt="linkedin" /></a
+  >
+  <a style="--content: 'Email'" href="mailto: karrerjon@gmail.com">
+    <img src="assets/icons/email_lt.svg" alt="email" /></a
+  >
 </menu>
 
 <style>
-  /*Md*/
-  @media (min-width: 768px) {
+  /*Lg*/
+  @media (min-width: 1024px) {
     menu {
       display: grid;
       gap: 20px;
+      align-self: flex-end;
     }
     img {
-      width: 35px;
+      width: 30px;
     }
-  }
-  /*Lg*/
-  @media (min-width: 1024px) {
+    a {
+      position: relative;
+    }
+    a:hover::after {
+      content: var(--content);
+      height: 20px;
+      padding: 0 3px;
+      background: black;
+      position: absolute;
+      bottom: 0;
+      color: white;
+    }
   }
   /*Xl*/
   @media (min-width: 1280px) {

@@ -13,29 +13,34 @@
 </header>
 
 <style>
-  /*Md*/
-  @media (min-width: 768px) {
+  header {
+    display: none;
+  }
+  /*Lg*/
+  @media (min-width: 1024px) {
     header {
       height: 100vh;
-      width: 150px;
+      width: 110px;
 
       display: grid;
       place-items: center;
 
       /** Frosted Glass fallback */
       background-color: rgba(255, 255, 255, 0.4);
+
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 100;
     }
 
     @supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
       header {
-        background-color: rgba(255, 255, 255, 0.2);
+        background-color: rgba(140, 136, 136, 0.5);
         backdrop-filter: blur(10px);
         -webkit-backdrop-filter: blur(10px);
       }
     }
-  }
-  /*Lg*/
-  @media (min-width: 1024px) {
   }
   /*Xl*/
   @media (min-width: 1280px) {

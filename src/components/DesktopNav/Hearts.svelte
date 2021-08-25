@@ -1,18 +1,26 @@
+<script>
+  let pathColor = "grey";
+</script>
+
 <span>
-  <p>Leave a like!</p>
+  <p>Drop a Like</p>
   <div>
-    <img src="assets/hearts/grey.svg" alt="" />
+    <img
+      on:click={() => (pathColor = "red")}
+      src="assets/hearts/{pathColor}.svg"
+      alt=""
+    />
     <h5>{23}</h5>
   </div>
 </span>
 
 <style>
-  /*Md*/
-  @media (min-width: 768px) {
+  /*Lg*/
+  @media (min-width: 1024px) {
     span {
       background: var(--dk-grey);
       width: 100%;
-      height: 100px;
+      height: 90px;
       align-self: flex-end;
 
       display: grid;
@@ -20,7 +28,7 @@
       gap: 10px;
     }
     span p {
-      font-size: 1.2rem;
+      font-size: 1rem;
       font-weight: bold;
     }
     div {
@@ -29,9 +37,12 @@
       align-items: center;
       justify-content: space-evenly;
     }
-  }
-  /*Lg*/
-  @media (min-width: 1024px) {
+    img {
+      width: 30px;
+    }
+    img:hover {
+      cursor: pointer;
+    }
   }
   /*Xl*/
   @media (min-width: 1280px) {

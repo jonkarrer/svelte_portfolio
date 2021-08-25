@@ -1,14 +1,27 @@
 @import url("./styles/fonts.css");
+
 * {
   margin: 0;
   padding: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
 }
+/* body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  -ms-overflow-style: none; 
+  scrollbar-width: none;
+} */
+
 :root {
   --background: #c4c4c4;
-  --dk-grey: #8c8888;
+  --dk-grey: rgb(140, 136, 136);
+  --lt-grey: #e5e5e5;
 }
 
 a {
@@ -18,15 +31,15 @@ a {
 a:hover {
   cursor: pointer;
 }
-html,
-body {
+html {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  background: var(--background);
+  background: green;
+  scroll-behavior: smooth;
 }
-
 section {
-  margin: auto;
+  width: 100vw;
+  height: 100vh;
 }
 
 /*Sm*/
