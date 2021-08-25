@@ -1,11 +1,9 @@
 <script>
-  import Home from "./Home.svelte";
-  import Work from "./Work.svelte";
+  import DesktopNav from "./components/DesktopNav/index.svelte";
 </script>
 
 <main>
-  <Home />
-  <Work />
+  <DesktopNav />
 </main>
 
 <style>
