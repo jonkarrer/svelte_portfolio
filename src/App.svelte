@@ -1,6 +1,7 @@
 <script>
   import DesktopNav from "./components/DesktopNav/index.svelte";
   import About from "./components/About/index.svelte";
+  import Websites from "./components/Websites/index.svelte";
 </script>
 
 <DesktopNav />
@@ -8,7 +9,7 @@
   <div class="outer-wrapper">
     <div class="wrapper">
       <About />
-
+      <Websites />
       <div class="slide two" />
       <div class="slide three" />
       <div class="slide four" />
@@ -42,9 +43,6 @@
 
   ::-webkit-scrollbar {
     display: none;
-  }
-  .one {
-    background: #efdefe;
   }
   .two {
     background: #a3f3d3;

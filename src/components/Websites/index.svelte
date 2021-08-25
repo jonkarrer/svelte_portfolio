@@ -1,11 +1,9 @@
 <script>
-  import Article from "./Article.svelte";
-  import BgImage from "./BgImage.svelte";
+  import Headline from "./Headline.svelte";
 </script>
 
 <section>
-  <Article />
-  <BgImage />
+  <Headline />
 </section>
 
 <style>
@@ -14,6 +12,7 @@
     section {
       display: flex;
       align-items: center;
+      padding: 0 100px;
     }
   }
   /*Xl*/

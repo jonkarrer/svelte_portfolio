@@ -15,6 +15,9 @@
       display: grid;
       gap: 15px;
     }
+    p {
+      width: 600px;
+    }
   }
   /*Xl*/
   @media (min-width: 1280px) {
