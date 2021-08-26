@@ -9,6 +9,7 @@
   @media (min-width: 1024px) {
     div {
       width: 650px;
+      margin: 0 200px;
     }
     h1 {
       font-size: 120px;

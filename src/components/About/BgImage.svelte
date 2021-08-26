@@ -5,7 +5,7 @@
   @media (min-width: 1024px) {
     img {
       height: 75vh;
-      margin: 0 40px;
+      margin-left: 80px;
     }
   }
   /*Xl*/
