@@ -1,0 +1,66 @@
+<form action="">
+  <label for="name">
+    <h5>Name</h5>
+    <input type="text" />
+  </label>
+  <label for="email">
+    <h5>Email</h5>
+    <input type="email" />
+  </label>
+  <textarea name="comment" rows="10" cols="30" placeholder="Write message..." />
+  <button>Submit</button>
+</form>
+
+<style>
+  /*Lg*/
+  @media (min-width: 1024px) {
+    form {
+      display: grid;
+      gap: 20px;
+      background: var(--lt-grey);
+      width: 600px;
+      height: 400px;
+      padding: 30px;
+      position: absolute;
+      right: 40px;
+      top: 0;
+      bottom: 100px;
+      margin: auto;
+    }
+    label {
+      display: flex;
+      align-items: flex-end;
+      width: 100%;
+    }
+    input {
+      background: none;
+      outline: none;
+      border: none;
+      border-bottom: black solid thin;
+      width: 100%;
+      margin: 0 10px;
+      padding: 5px;
+      height: 30px;
+      font-size: 1.3rem;
+    }
+    button {
+      height: 60px;
+      width: 200px;
+      color: white;
+      background: black;
+      outline: none;
+      border: none;
+    }
+    textarea {
+      font-size: 1.3rem;
+      outline: none;
+      padding: 5px;
+    }
+  }
+  /*Xl*/
+  @media (min-width: 1280px) {
+  }
+  /*2xl*/
+  @media (min-width: 1536px) {
+  }
+</style>

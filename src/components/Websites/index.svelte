@@ -11,8 +11,8 @@
     screenshot="assets/work/mml_phone.png"
     title="Making Markets"
     info="This project is robust. Auth, subscriptions, Next.js, database API,
-  dynamic content, and more. This is still under construction but will be
-  finished soon."
+          dynamic content, and more. This is still under construction but will be
+          finished soon."
   />
   <Project
     logoPath="assets/work/logos/amanda.svg"
@@ -20,8 +20,8 @@
     screenshot="assets/work/amanda_phone.png"
     title="Reaching Clients"
     info="This project is robust. Auth, subscriptions, Next.js, database API,
-dynamic content, and more. This is still under construction but will be
-finished soon."
+          dynamic content, and more. This is still under construction but will be
+          finished soon."
   />
   <Project
     logoPath="assets/work/logos/serenity.png"
@@ -29,8 +29,8 @@ finished soon."
     screenshot="assets/work/serenity_phone.png"
     title="Building Brands"
     info="This project is robust. Auth, subscriptions, Next.js, database API,
-dynamic content, and more. This is still under construction but will be
-finished soon."
+          dynamic content, and more. This is still under construction but will be
+          finished soon."
   />
 </section>
 

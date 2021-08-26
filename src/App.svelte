@@ -2,6 +2,8 @@
   import DesktopNav from "./components/DesktopNav/index.svelte";
   import About from "./components/About/index.svelte";
   import Websites from "./components/Websites/index.svelte";
+  import SmallApps from "./components/SmallApps/index.svelte";
+  import Contact from "./components/Contact/index.svelte";
 </script>
 
 <DesktopNav />
@@ -10,22 +12,16 @@
     <div class="wrapper">
       <About />
       <Websites />
-      <div class="slide two" />
-      <div class="slide three" />
-      <div class="slide four" />
+      <SmallApps />
+      <Contact />
     </div>
   </div>
 </main>
 
 <style>
-  .slide {
-    width: 100vw;
-    height: 100vh;
-  }
   .wrapper {
     display: flex;
     flex-direction: row;
-    width: 400vw;
     transform: rotate(90deg) translateY(-100vh);
     transform-origin: top left;
   }
