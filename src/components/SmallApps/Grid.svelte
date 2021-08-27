@@ -33,8 +33,5 @@
   }
   /*2xl*/
   @media (min-width: 1536px) {
-    .grid_container {
-      gap: 30px;
-    }
   }
 </style>

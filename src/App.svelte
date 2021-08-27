@@ -48,7 +48,7 @@
   /*2xl*/
   @media (min-width: 1536px) {
     .outer-wrapper {
-      min-height: 760px;
+      min-height: 850px;
     }
   }
 </style>

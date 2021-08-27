@@ -18,6 +18,7 @@
   @media (min-width: 1536px) {
     img {
       max-height: 850px;
+      margin-right: 200px;
     }
   }
 </style>

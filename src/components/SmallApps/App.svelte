@@ -25,8 +25,8 @@
   /*2xl*/
   @media (min-width: 1536px) {
     div {
-      height: 300px;
-      width: 400px;
+      height: 290px;
+      width: 390px;
     }
   }
 </style>
