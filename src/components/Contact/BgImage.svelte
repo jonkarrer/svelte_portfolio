@@ -5,9 +5,11 @@
   @media (min-width: 1024px) {
     img {
       height: 40vh;
+      min-height: 220px;
+      max-height: 650px;
       position: absolute;
       bottom: 0;
-      left: 150px;
+      left: 200px;
     }
   }
   /*Xl*/

@@ -9,7 +9,9 @@
 <div class="wrapper">
   <img class="screenshot" src={screenshot} alt="" />
   <article>
-    <img class="logo" src={logoPath} style="width: {logoWidth}px;" alt="" />
+    <span>
+      <img class="logo" src={logoPath} style="width: {logoWidth}px;" alt="" />
+    </span>
     <div class="info">
       <h2 class="hollow_text">{title}</h2>
       <p>
@@ -25,15 +27,23 @@
   @media (min-width: 1024px) {
     .wrapper {
       display: flex;
+      align-items: center;
     }
     .screenshot {
       height: 75vh;
+      min-height: 550px;
+      max-height: 600px;
     }
     article {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-evenly;
+      display: grid;
+      height: 450px;
+
       width: 700px;
+    }
+    span {
+      height: 150px;
+      display: flex;
+      align-items: center;
     }
     p {
       width: 600px;
@@ -53,8 +63,19 @@
   }
   /*Xl*/
   @media (min-width: 1280px) {
+    article {
+      height: 500px;
+      width: 720px;
+    }
   }
   /*2xl*/
   @media (min-width: 1536px) {
+    article {
+      height: 600px;
+      width: 800px;
+    }
+    .screenshot {
+      max-height: 860px;
+    }
   }
 </style>

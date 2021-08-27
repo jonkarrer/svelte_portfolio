@@ -20,7 +20,7 @@
   @media (min-width: 1024px) {
     .wrapper {
       display: grid;
-      gap: 50px;
+      gap: 5%;
     }
     .grid_container {
       display: grid;
@@ -33,5 +33,8 @@
   }
   /*2xl*/
   @media (min-width: 1536px) {
+    .grid_container {
+      gap: 30px;
+    }
   }
 </style>

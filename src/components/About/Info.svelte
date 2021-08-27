@@ -19,10 +19,13 @@
       width: 600px;
     }
   }
-  /*Xl*/
-  @media (min-width: 1280px) {
-  }
   /*2xl*/
   @media (min-width: 1536px) {
+    div {
+      gap: 20px;
+    }
+    p {
+      width: 800px;
+    }
   }
 </style>

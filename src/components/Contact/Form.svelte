@@ -18,7 +18,8 @@
       display: grid;
       gap: 20px;
       background: var(--lt-grey);
-      width: 600px;
+      width: 40vw;
+      max-width: 600px;
       height: 400px;
       padding: 30px;
       position: absolute;
@@ -59,8 +60,23 @@
   }
   /*Xl*/
   @media (min-width: 1280px) {
+    form {
+      gap: 25;
+      width: 40vw;
+      max-width: 1000px;
+      height: 400px;
+      padding: 30px;
+    }
   }
   /*2xl*/
   @media (min-width: 1536px) {
+    form {
+      gap: 30px;
+      width: 45vw;
+      max-width: 1200px;
+      height: 500px;
+      padding: 30px;
+      right: 50px;
+    }
   }
 </style>

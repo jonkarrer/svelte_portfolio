@@ -19,11 +19,34 @@
       margin-top: 20px;
       font-size: 1.5rem;
     }
+    h3 {
+      font-size: 2rem;
+    }
   }
   /*Xl*/
   @media (min-width: 1280px) {
+    li {
+      margin-left: 50px;
+      margin-top: 20px;
+      font-size: 1.6rem;
+    }
+    h3 {
+      font-size: 2.6rem;
+    }
   }
   /*2xl*/
   @media (min-width: 1536px) {
+    ul {
+      position: absolute;
+      left: 150px;
+      top: 150px;
+    }
+    li {
+      margin-top: 25px;
+      font-size: 2.2rem;
+    }
+    h3 {
+      font-size: 3.4rem;
+    }
   }
 </style>

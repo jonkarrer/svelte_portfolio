@@ -10,15 +10,23 @@
   /*Lg*/
   @media (min-width: 1024px) {
     div {
-      height: 200px;
-      width: 300px;
+      height: 170px;
+      width: 270px;
       background: cyan;
     }
   }
   /*Xl*/
   @media (min-width: 1280px) {
+    div {
+      height: 200px;
+      width: 300px;
+    }
   }
   /*2xl*/
   @media (min-width: 1536px) {
+    div {
+      height: 300px;
+      width: 400px;
+    }
   }
 </style>

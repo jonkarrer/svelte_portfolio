@@ -21,10 +21,20 @@
       text-align: end;
     }
   }
-  /*Xl*/
-  @media (min-width: 1280px) {
-  }
   /*2xl*/
   @media (min-width: 1536px) {
+    div {
+      width: 850px;
+      margin: 0 160px;
+    }
+    h1 {
+      font-size: 150px;
+    }
+    .mid {
+      text-align: center;
+    }
+    .bottom {
+      text-align: end;
+    }
   }
 </style>

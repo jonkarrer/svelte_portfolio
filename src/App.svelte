@@ -19,34 +19,36 @@
 </main>
 
 <style>
-  .wrapper {
-    display: flex;
-    flex-direction: row;
-    transform: rotate(90deg) translateY(-100vh);
-    transform-origin: top left;
-  }
-  .outer-wrapper {
-    width: 100vh;
-    height: 100vw;
-    transform: rotate(-90deg) translateX(-100vh);
-    transform-origin: top left;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    position: absolute;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
+  /*Lg*/
+  @media (min-width: 1024px) {
+    .wrapper {
+      display: flex;
+      flex-direction: row;
+      transform: rotate(90deg) translateY(-100vh);
+      transform-origin: top left;
+    }
+    .outer-wrapper {
+      width: 100vh;
+      height: 100vw;
+      min-height: 600px;
+      transform: rotate(-90deg) translateX(-100vh);
+      transform-origin: top left;
+      overflow-y: scroll;
+      overflow-x: hidden;
+      position: absolute;
+      scrollbar-width: none;
+      -ms-overflow-style: none;
+    }
+
+    ::-webkit-scrollbar {
+      display: none;
+    }
   }
 
-  ::-webkit-scrollbar {
-    display: none;
-  }
-  .two {
-    background: #a3f3d3;
-  }
-  .three {
-    background: #0bbaa0;
-  }
-  .four {
-    background: #00dfdf;
+  /*2xl*/
+  @media (min-width: 1536px) {
+    .outer-wrapper {
+      min-height: 760px;
+    }
   }
 </style>

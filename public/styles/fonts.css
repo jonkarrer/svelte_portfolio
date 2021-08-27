@@ -78,10 +78,10 @@ h6 {
 /*2xl*/
 @media (min-width: 1536px) {
   h1 {
-    font-size: 8.7rem;
+    font-size: 9rem;
   }
   h2 {
-    font-size: 5.7rem;
+    font-size: 6rem;
   }
   h3 {
     font-size: 4.2rem;
@@ -93,7 +93,7 @@ h6 {
     font-size: 2.4rem;
   }
   h6 {
-    font-size: 3.5rem;
+    font-size: 1.7rem;
   }
   p {
     font-size: 1.8rem;

@@ -18,11 +18,8 @@
   @media (min-width: 1024px) {
     section {
       min-width: 100vw;
+      min-height: 600px;
       position: relative;
-    }
-    .wrapper {
-      margin-left: 150px;
-      display: flex;
     }
   }
   /*Xl*/

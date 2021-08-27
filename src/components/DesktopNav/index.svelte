@@ -20,6 +20,7 @@
   @media (min-width: 1024px) {
     header {
       height: 100vh;
+      min-height: 600px;
       width: 110px;
 
       display: grid;
@@ -42,10 +43,10 @@
       }
     }
   }
-  /*Xl*/
-  @media (min-width: 1280px) {
-  }
   /*2xl*/
   @media (min-width: 1536px) {
+    header {
+      min-height: 760px;
+    }
   }
 </style>
