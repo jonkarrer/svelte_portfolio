@@ -57,3 +57,9 @@ section {
 /*2xl*/
 @media (min-width: 1536px) {
 }
+/*3xl*/
+@media (min-width: 2000px) {
+}
+/*4k*/
+@media (min-width: 3500px) {
+}

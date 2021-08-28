@@ -10,7 +10,12 @@
   <img class="screenshot" src={screenshot} alt="" />
   <article>
     <span>
-      <img class="logo" src={logoPath} style="width: {logoWidth}px;" alt="" />
+      <img
+        class="logo"
+        src={logoPath}
+        style="--logoWidth: {logoWidth}px;"
+        alt=""
+      />
     </span>
     <div class="info">
       <h2 class="hollow_text">{title}</h2>
@@ -45,6 +50,9 @@
       display: flex;
       align-items: center;
     }
+    .logo {
+      width: var(--logoWidth);
+    }
     p {
       width: 600px;
     }
@@ -76,6 +84,30 @@
     }
     .screenshot {
       max-height: 860px;
+    }
+  }
+  /*4k*/
+  @media (min-width: 3500px) {
+    article {
+      height: 1200px;
+      width: 1800px;
+    }
+    .screenshot {
+      max-height: 1400px;
+      min-height: 1200px;
+    }
+    span {
+      height: 250px;
+    }
+    .logo {
+      width: calc(var(--logoWidth) + 130px);
+    }
+    p {
+      width: 1300px;
+    }
+    button {
+      height: 120px;
+      width: 400px;
     }
   }
 </style>

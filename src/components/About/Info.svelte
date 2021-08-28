@@ -28,4 +28,13 @@
       width: 800px;
     }
   }
+  /*4k*/
+  @media (min-width: 3500px) {
+    div {
+      gap: 40px;
+    }
+    p {
+      width: 1600px;
+    }
+  }
 </style>

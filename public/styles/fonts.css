@@ -90,7 +90,7 @@ h6 {
     font-size: 2.7rem;
   }
   h5 {
-    font-size: 2.4rem;
+    font-size: 2rem;
   }
   h6 {
     font-size: 1.7rem;
@@ -106,5 +106,32 @@ h6 {
 @media (min-width: 1936px) {
   p {
     font-size: 1.9rem;
+  }
+}
+/*4k*/
+@media (min-width: 3500px) {
+  h1 {
+    font-size: 15rem;
+  }
+  h2 {
+    font-size: 12.5rem;
+  }
+  h3 {
+    font-size: 10rem;
+  }
+  h4 {
+    font-size: 5.7rem;
+  }
+  h5 {
+    font-size: 4.4rem;
+  }
+  h6 {
+    font-size: 2.8rem;
+  }
+  p {
+    font-size: 3.8rem;
+  }
+  button {
+    font-size: 3rem;
   }
 }

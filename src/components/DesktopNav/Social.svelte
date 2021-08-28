@@ -45,5 +45,19 @@
   }
   /*2xl*/
   @media (min-width: 1536px) {
+    /*4k*/
+    @media (min-width: 3500px) {
+      menu {
+        gap: 40px;
+      }
+      img {
+        width: 60px;
+      }
+      a:hover::after {
+        height: 40px;
+        padding: 0 6px;
+        font-size: 2rem;
+      }
+    }
   }
 </style>

@@ -18,4 +18,12 @@
   /*2xl*/
   @media (min-width: 1536px) {
   }
+  /*4k*/
+  @media (min-width: 3500px) {
+    img {
+      min-height: 520px;
+      max-height: 1200px;
+      left: 400px;
+    }
+  }
 </style>

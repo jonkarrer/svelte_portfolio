@@ -28,4 +28,10 @@
   /*2xl*/
   @media (min-width: 1536px) {
   }
+  /*4k*/
+  @media (min-width: 3500px) {
+    section {
+      min-height: 1250px;
+    }
+  }
 </style>

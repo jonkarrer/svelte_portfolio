@@ -39,4 +39,11 @@
   /*2xl*/
   @media (min-width: 1536px) {
   }
+  /*4k*/
+  @media (min-width: 3500px) {
+    div {
+      display: grid;
+      gap: 50px;
+    }
+  }
 </style>

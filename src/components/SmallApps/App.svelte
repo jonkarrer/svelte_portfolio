@@ -29,4 +29,11 @@
       width: 390px;
     }
   }
+  /*4k*/
+  @media (min-width: 3500px) {
+    div {
+      height: 450px;
+      width: 750px;
+    }
+  }
 </style>

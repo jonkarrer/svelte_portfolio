@@ -78,5 +78,20 @@
       padding: 30px;
       right: 50px;
     }
+    /*4k*/
+    @media (min-width: 3500px) {
+      form {
+        gap: 80px;
+        width: 45vw;
+        max-width: 2500px;
+        height: 1000px;
+        padding: 40px;
+        right: 100px;
+      }
+      button {
+        height: 120px;
+        width: 400px;
+      }
+    }
   }
 </style>

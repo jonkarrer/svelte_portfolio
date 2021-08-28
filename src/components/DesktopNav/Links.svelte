@@ -21,4 +21,11 @@
   /*2xl*/
   @media (min-width: 1536px) {
   }
+  /*4k*/
+  @media (min-width: 3500px) {
+    nav {
+      gap: 35px;
+      font-size: 2.2rem;
+    }
+  }
 </style>

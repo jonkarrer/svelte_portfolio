@@ -50,4 +50,21 @@
   /*2xl*/
   @media (min-width: 1536px) {
   }
+  /*4k*/
+  @media (min-width: 3500px) {
+    span {
+      height: 200px;
+      align-self: flex-end;
+      gap: 20px;
+    }
+    span p {
+      font-size: 2rem;
+    }
+    img {
+      width: 70px;
+    }
+    img:hover {
+      cursor: pointer;
+    }
+  }
 </style>

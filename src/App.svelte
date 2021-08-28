@@ -51,4 +51,10 @@
       min-height: 850px;
     }
   }
+  /*4k*/
+  @media (min-width: 3500px) {
+    .outer-wrapper {
+      min-height: 1150px;
+    }
+  }
 </style>

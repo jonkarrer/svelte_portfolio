@@ -20,7 +20,14 @@
   @media (min-width: 1536px) {
     div {
       font-size: 1.8rem;
-      font-weight: bold;
+    }
+  }
+
+  /*4k*/
+  @media (min-width: 3500px) {
+    div {
+      font-size: 3rem;
+      gap: 60px;
     }
   }
 </style>

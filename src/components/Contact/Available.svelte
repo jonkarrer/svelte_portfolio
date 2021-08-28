@@ -37,7 +37,6 @@
   /*2xl*/
   @media (min-width: 1536px) {
     ul {
-      position: absolute;
       left: 150px;
       top: 150px;
     }
@@ -47,6 +46,20 @@
     }
     h3 {
       font-size: 3.4rem;
+    }
+  }
+  /*4k*/
+  @media (min-width: 3500px) {
+    ul {
+      left: 400px;
+      top: 8%;
+    }
+    li {
+      margin-top: 35px;
+      font-size: 4.2rem;
+    }
+    h3 {
+      font-size: 8.4rem;
     }
   }
 </style>

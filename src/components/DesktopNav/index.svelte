@@ -49,4 +49,10 @@
       min-height: 760px;
     }
   }
+  /*4k*/
+  @media (min-width: 3500px) {
+    header {
+      width: 200px;
+    }
+  }
 </style>

@@ -21,4 +21,13 @@
       margin-right: 200px;
     }
   }
+  /*4k*/
+  @media (min-width: 3500px) {
+    img {
+      min-height: 1000px;
+      max-height: 1300px;
+      margin-right: 300px;
+      align-self: flex-end;
+    }
+  }
 </style>

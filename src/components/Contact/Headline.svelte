@@ -23,4 +23,11 @@
   /*2xl*/
   @media (min-width: 1536px) {
   }
+  /*4k*/
+  @media (min-width: 3500px) {
+    div {
+      bottom: 30px;
+      right: 100px;
+    }
+  }
 </style>

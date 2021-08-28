@@ -11,9 +11,9 @@
       width: 650px;
       margin: 0 160px;
     }
-    h1 {
+    /* h1 {
       font-size: 120px;
-    }
+    } */
     .mid {
       text-align: center;
     }
@@ -25,16 +25,24 @@
   @media (min-width: 1536px) {
     div {
       width: 850px;
-      margin: 0 160px;
+      margin: 0 180px;
     }
-    h1 {
+    /* h1 {
       font-size: 150px;
-    }
+    } */
     .mid {
       text-align: center;
     }
     .bottom {
       text-align: end;
+    }
+  }
+
+  /*4k*/
+  @media (min-width: 3500px) {
+    div {
+      width: 1400px;
+      margin: 0 300px;
     }
   }
 </style>
