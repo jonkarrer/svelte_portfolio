@@ -32,7 +32,7 @@
   /*2xl*/
   @media (min-width: 1536px) {
     article {
-      margin-left: 300px;
+      margin-left: 200px;
     }
   }
   /*3xl*/
@@ -40,12 +40,12 @@
   }
   /*4xl*/
   @media (min-width: 2500px) {
-  }
-  /*5xl*/
-  @media (min-width: 3000px) {
     article {
       margin-left: 400px;
     }
+  }
+  /*5xl*/
+  @media (min-width: 3000px) {
   }
   /*4k*/
   @media (min-width: 3500px) {

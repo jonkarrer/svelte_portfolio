@@ -53,9 +53,15 @@
   }
   /*3xl*/
   @media (min-width: 2000px) {
+    .outer-wrapper {
+      min-height: 900px;
+    }
   }
   /*4xl*/
   @media (min-width: 2500px) {
+    .outer-wrapper {
+      min-height: 1100px;
+    }
   }
   /*5xl*/
   @media (min-width: 3000px) {

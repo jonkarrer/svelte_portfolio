@@ -90,80 +90,103 @@ h6 {
     font-size: 2.7rem;
   }
   h5 {
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
   h6 {
     font-size: 1.7rem;
   }
   p {
-    font-size: 1.8rem;
+    font-size: 1.9rem;
   }
   button {
     font-size: 2rem;
   }
 }
+
 /*3xl*/
 @media (min-width: 2000px) {
+  h1 {
+    font-size: 10rem;
+  }
+  h2 {
+    font-size: 8.5rem;
+  }
+  h3 {
+    font-size: 7.5rem;
+  }
+  h4 {
+    font-size: 3.4rem;
+  }
+  h5 {
+    font-size: 2.6rem;
+  }
+  h6 {
+    font-size: 1.7rem;
+  }
   p {
-    font-size: 1.9rem;
+    font-size: 2.2rem;
   }
-
-  /*4xl*/
-  @media (min-width: 2500px) {
-    h1 {
-      font-size: 12rem;
-    }
-    h2 {
-      font-size: 9.5rem;
-    }
-    h3 {
-      font-size: 7.5rem;
-    }
-    h4 {
-      font-size: 4rem;
-    }
-    h5 {
-      font-size: 3rem;
-    }
-    h6 {
-      font-size: 1.9rem;
-    }
-    p {
-      font-size: 2.6rem;
-    }
-    button {
-      font-size: 2.2rem;
-    }
-  }
-
-  /*5xl*/
-  @media (min-width: 3000px) {
-    h1 {
-      font-size: 14rem;
-    }
-    h2 {
-      font-size: 11.5rem;
-    }
-    h3 {
-      font-size: 9rem;
-    }
-    h4 {
-      font-size: 5rem;
-    }
-    h5 {
-      font-size: 4rem;
-    }
-    h6 {
-      font-size: 2.2rem;
-    }
-    p {
-      font-size: 3.1rem;
-    }
-    button {
-      font-size: 2.8rem;
-    }
+  button {
+    font-size: 2rem;
   }
 }
+
+/*4xl*/
+@media (min-width: 2500px) {
+  h1 {
+    font-size: 12rem;
+  }
+  h2 {
+    font-size: 9.5rem;
+  }
+  h3 {
+    font-size: 7.5rem;
+  }
+  h4 {
+    font-size: 4rem;
+  }
+  h5 {
+    font-size: 3rem;
+  }
+  h6 {
+    font-size: 1.9rem;
+  }
+  p {
+    font-size: 2.6rem;
+  }
+  button {
+    font-size: 2.2rem;
+  }
+}
+
+/*5xl*/
+@media (min-width: 3000px) {
+  h1 {
+    font-size: 14rem;
+  }
+  h2 {
+    font-size: 11.5rem;
+  }
+  h3 {
+    font-size: 9rem;
+  }
+  h4 {
+    font-size: 5rem;
+  }
+  h5 {
+    font-size: 4rem;
+  }
+  h6 {
+    font-size: 2.2rem;
+  }
+  p {
+    font-size: 3.1rem;
+  }
+  button {
+    font-size: 2.8rem;
+  }
+}
+
 /*4k*/
 @media (min-width: 3500px) {
   h1 {

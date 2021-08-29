@@ -44,6 +44,9 @@
   }
   /*4xl*/
   @media (min-width: 2500px) {
+    div {
+      gap: 40px;
+    }
   }
   /*5xl*/
   @media (min-width: 3000px) {

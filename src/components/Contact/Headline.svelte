@@ -28,6 +28,10 @@
   }
   /*4xl*/
   @media (min-width: 2500px) {
+    div {
+      bottom: 30px;
+      right: 60px;
+    }
   }
   /*5xl*/
   @media (min-width: 3000px) {

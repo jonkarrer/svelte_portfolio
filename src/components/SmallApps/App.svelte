@@ -25,18 +25,22 @@
   /*2xl*/
   @media (min-width: 1536px) {
     div {
-      height: 290px;
-      width: 390px;
+      height: 280px;
+      width: 380px;
     }
   }
   /*3xl*/
   @media (min-width: 2000px) {
+    div {
+      height: 300px;
+      width: 450px;
+    }
   }
   /*4xl*/
   @media (min-width: 2500px) {
     div {
-      height: 350px;
-      width: 600px;
+      height: 330px;
+      width: 520px;
     }
   }
   /*5xl*/

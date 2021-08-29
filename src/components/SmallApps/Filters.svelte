@@ -12,27 +12,13 @@
       grid-auto-flow: column;
       gap: 40px;
       width: max-content;
-      font-size: 1.4rem;
       font-weight: bold;
     }
-  }
-  /*2xl*/
-  @media (min-width: 1536px) {
-  }
-  /*3xl*/
-  @media (min-width: 2000px) {
   }
   /*4xl*/
   @media (min-width: 2500px) {
     div {
-      gap: 60px;
+      gap: 80px;
     }
-  }
-  /*5xl*/
-  @media (min-width: 3000px) {
-  }
-
-  /*4k*/
-  @media (min-width: 3500px) {
   }
 </style>

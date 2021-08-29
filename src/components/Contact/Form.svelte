@@ -44,14 +44,6 @@
       height: 30px;
       font-size: 1.3rem;
     }
-    button {
-      height: 60px;
-      width: 200px;
-      color: white;
-      background: black;
-      outline: none;
-      border: none;
-    }
     textarea {
       font-size: 1.3rem;
       outline: none;
@@ -73,29 +65,37 @@
     form {
       gap: 30px;
       width: 45vw;
-      max-width: 1200px;
+      max-width: 800px;
       height: 500px;
       padding: 30px;
       right: 50px;
     }
     /*3xl*/
     @media (min-width: 2000px) {
+      form {
+        gap: 40px;
+        height: 600px;
+        max-width: 900px;
+      }
     }
     /*4xl*/
     @media (min-width: 2500px) {
+      form {
+        gap: 60px;
+        max-width: 1000px;
+        height: 700px;
+        padding: 40px;
+        right: 60px;
+      }
     }
     /*5xl*/
     @media (min-width: 3000px) {
       form {
         gap: 60px;
-        max-width: 2200px;
+        max-width: 1600px;
         height: 800px;
         padding: 40px;
         right: 100px;
-      }
-      button {
-        height: 120px;
-        width: 400px;
       }
     }
     /*4k*/

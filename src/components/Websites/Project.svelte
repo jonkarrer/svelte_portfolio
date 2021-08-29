@@ -66,32 +66,26 @@
       display: grid;
       gap: 30px;
     }
-    button {
-      height: 60px;
-      width: 200px;
-      color: white;
-      background: black;
-      outline: none;
-      border: none;
-    }
   }
   /*Xl*/
   @media (min-width: 1280px) {
   }
   /*2xl*/
   @media (min-width: 1536px) {
+    .logo {
+      width: var(--logoWidth);
+    }
   }
   /*3xl*/
   @media (min-width: 2000px) {
+    .logo {
+      width: calc(var(--logoWidth) + 30px);
+    }
   }
   /*4xl*/
   @media (min-width: 2500px) {
     .logo {
       width: calc(var(--logoWidth) + 100px);
-    }
-    button {
-      height: 110px;
-      width: 350px;
     }
   }
   /*5xl*/
@@ -100,15 +94,8 @@
       height: 1100px;
       width: 1700px;
     }
-    /* span {
-      height: 250px;
-    } */
     .logo {
       width: calc(var(--logoWidth) + 120px);
-    }
-    button {
-      height: 120px;
-      width: 400px;
     }
   }
   /*4k*/
@@ -122,10 +109,6 @@
     }
     p {
       width: 1300px;
-    }
-    button {
-      height: 120px;
-      width: 400px;
     }
   }
 </style>

@@ -4,8 +4,8 @@
   /*Lg*/
   @media (min-width: 1024px) {
     img {
-      --change-max-h: calc(600px + 10vh);
-      --change-min-h: calc(150px + 30vh);
+      --change-max-h: calc(600px + 20vh);
+      --change-min-h: calc(120px + 40vh);
 
       height: 40vh;
       max-height: var(--change-max-h);
@@ -27,12 +27,12 @@
   }
   /*4xl*/
   @media (min-width: 2500px) {
-  }
-  /*5xl*/
-  @media (min-width: 3000px) {
     img {
       /** Match the wider DesktopNav */
       left: 400px;
     }
+  }
+  /*5xl*/
+  @media (min-width: 3000px) {
   }
 </style>

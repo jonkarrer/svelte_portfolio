@@ -4,7 +4,7 @@
   /*Lg*/
   @media (min-width: 1024px) {
     img {
-      --change-max-h: calc(450px + 10vh);
+      --change-max-h: calc(450px + 35vh);
       --change-min-h: calc(300px + 35vh);
 
       height: 75vh;

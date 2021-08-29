@@ -54,12 +54,12 @@
   }
   /*4xl*/
   @media (min-width: 2500px) {
-  }
-  /*5xl*/
-  @media (min-width: 3000px) {
     header {
       width: 200px;
     }
+  }
+  /*5xl*/
+  @media (min-width: 3000px) {
   }
   /*4k*/
   @media (min-width: 3500px) {
