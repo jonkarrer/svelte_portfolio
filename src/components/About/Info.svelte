@@ -16,7 +16,7 @@
       gap: 15px;
     }
     p {
-      width: 600px;
+      width: calc(400px + 20vw);
     }
   }
   /*2xl*/
@@ -24,8 +24,20 @@
     div {
       gap: 20px;
     }
+  }
+  /*3xl*/
+  @media (min-width: 2000px) {
+  }
+  /*4xl*/
+  @media (min-width: 2500px) {
+  }
+  /*5xl*/
+  @media (min-width: 3000px) {
+    div {
+      gap: 20px;
+    }
     p {
-      width: 800px;
+      width: 1300px;
     }
   }
   /*4k*/

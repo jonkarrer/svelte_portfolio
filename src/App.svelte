@@ -51,10 +51,22 @@
       min-height: 850px;
     }
   }
+  /*3xl*/
+  @media (min-width: 2000px) {
+  }
+  /*4xl*/
+  @media (min-width: 2500px) {
+  }
+  /*5xl*/
+  @media (min-width: 3000px) {
+    .outer-wrapper {
+      min-height: 1300px;
+    }
+  }
   /*4k*/
   @media (min-width: 3500px) {
     .outer-wrapper {
-      min-height: 1150px;
+      min-height: 1400px;
     }
   }
 </style>

@@ -78,19 +78,32 @@
       padding: 30px;
       right: 50px;
     }
-    /*4k*/
-    @media (min-width: 3500px) {
+    /*3xl*/
+    @media (min-width: 2000px) {
+    }
+    /*4xl*/
+    @media (min-width: 2500px) {
+    }
+    /*5xl*/
+    @media (min-width: 3000px) {
       form {
-        gap: 80px;
-        width: 45vw;
-        max-width: 2500px;
-        height: 1000px;
+        gap: 60px;
+        max-width: 2200px;
+        height: 800px;
         padding: 40px;
         right: 100px;
       }
       button {
         height: 120px;
         width: 400px;
+      }
+    }
+    /*4k*/
+    @media (min-width: 3500px) {
+      form {
+        gap: 80px;
+        max-width: 2500px;
+        height: 1000px;
       }
     }
   }

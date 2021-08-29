@@ -28,10 +28,22 @@
   /*2xl*/
   @media (min-width: 1536px) {
   }
+  /*3xl*/
+  @media (min-width: 2000px) {
+  }
+  /*4xl*/
+  @media (min-width: 2500px) {
+  }
+  /*5xl*/
+  @media (min-width: 3000px) {
+    section {
+      min-height: 1350px;
+    }
+  }
   /*4k*/
   @media (min-width: 3500px) {
     section {
-      min-height: 1250px;
+      min-height: 1550px;
     }
   }
 </style>

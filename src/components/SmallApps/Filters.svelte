@@ -1,7 +1,7 @@
 <div>
-  <span><u>All</u></span>
-  <span>Framework</span>
-  <span>Vanilla</span>
+  <span><u><h5>All</h5></u></span>
+  <span><h5>Framework</h5></span>
+  <span><h5>Vanilla</h5></span>
 </div>
 
 <style>
@@ -18,16 +18,21 @@
   }
   /*2xl*/
   @media (min-width: 1536px) {
+  }
+  /*3xl*/
+  @media (min-width: 2000px) {
+  }
+  /*4xl*/
+  @media (min-width: 2500px) {
     div {
-      font-size: 1.8rem;
+      gap: 60px;
     }
+  }
+  /*5xl*/
+  @media (min-width: 3000px) {
   }
 
   /*4k*/
   @media (min-width: 3500px) {
-    div {
-      font-size: 3rem;
-      gap: 60px;
-    }
   }
 </style>

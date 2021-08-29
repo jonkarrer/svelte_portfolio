@@ -8,7 +8,7 @@
   /*Lg*/
   @media (min-width: 1024px) {
     div {
-      width: 650px;
+      width: 500px;
       margin: 0 160px;
     }
     /* h1 {
@@ -37,7 +37,23 @@
       text-align: end;
     }
   }
-
+  /*3xl*/
+  @media (min-width: 2000px) {
+  }
+  /*4xl*/
+  @media (min-width: 2500px) {
+    div {
+      width: 1000px;
+      margin: 0 200px;
+    }
+  }
+  /*5xl*/
+  @media (min-width: 3000px) {
+    div {
+      width: 1300px;
+      margin: 0 250px;
+    }
+  }
   /*4k*/
   @media (min-width: 3500px) {
     div {

@@ -4,9 +4,13 @@
   /*Lg*/
   @media (min-width: 1024px) {
     img {
+      --change-max-h: calc(600px + 10vh);
+      --change-min-h: calc(150px + 30vh);
+
       height: 40vh;
-      min-height: 220px;
-      max-height: 650px;
+      max-height: var(--change-max-h);
+      min-height: var(--change-min-h);
+
       position: absolute;
       bottom: 0;
       left: 200px;
@@ -18,11 +22,16 @@
   /*2xl*/
   @media (min-width: 1536px) {
   }
-  /*4k*/
-  @media (min-width: 3500px) {
+  /*3xl*/
+  @media (min-width: 2000px) {
+  }
+  /*4xl*/
+  @media (min-width: 2500px) {
+  }
+  /*5xl*/
+  @media (min-width: 3000px) {
     img {
-      min-height: 520px;
-      max-height: 1200px;
+      /** Match the wider DesktopNav */
       left: 400px;
     }
   }

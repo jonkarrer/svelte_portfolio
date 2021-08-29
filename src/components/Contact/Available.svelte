@@ -48,6 +48,26 @@
       font-size: 3.4rem;
     }
   }
+  /*3xl*/
+  @media (min-width: 2000px) {
+  }
+  /*4xl*/
+  @media (min-width: 2500px) {
+  }
+  /*5xl*/
+  @media (min-width: 3000px) {
+    ul {
+      left: 350px;
+      top: 8%;
+    }
+    li {
+      margin-top: 35px;
+      font-size: 3.4rem;
+    }
+    h3 {
+      font-size: 7.6rem;
+    }
+  }
   /*4k*/
   @media (min-width: 3500px) {
     ul {
