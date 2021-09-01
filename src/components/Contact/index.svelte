@@ -14,6 +14,12 @@
 </section>
 
 <style>
+  section {
+    display: grid;
+    place-content: center;
+    gap: 60px;
+    margin: 80px 0;
+  }
   /*Lg*/
   @media (min-width: 1024px) {
     section {
@@ -22,17 +28,23 @@
       position: relative;
     }
   }
-  /*Xl*/
-  @media (min-width: 1280px) {
-  }
   /*2xl*/
   @media (min-width: 1536px) {
+    section {
+      min-height: 800px;
+    }
   }
   /*3xl*/
   @media (min-width: 2000px) {
+    section {
+      min-height: 1000px;
+    }
   }
   /*4xl*/
   @media (min-width: 2500px) {
+    section {
+      min-height: 1250px;
+    }
   }
   /*5xl*/
   @media (min-width: 3000px) {

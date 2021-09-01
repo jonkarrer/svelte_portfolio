@@ -1,6 +1,11 @@
 <img src="assets/background/contact.svg" alt="" />
 
 <style>
+  img {
+    width: 80vw;
+    margin: auto;
+  }
+
   /*Lg*/
   @media (min-width: 1024px) {
     img {
@@ -8,6 +13,7 @@
       --change-min-h: calc(120px + 35vh);
 
       height: 40vh;
+      width: auto;
       max-height: var(--change-max-h);
       min-height: var(--change-min-h);
 
@@ -16,23 +22,11 @@
       left: 200px;
     }
   }
-  /*Xl*/
-  @media (min-width: 1280px) {
-  }
-  /*2xl*/
-  @media (min-width: 1536px) {
-  }
-  /*3xl*/
-  @media (min-width: 2000px) {
-  }
   /*4xl*/
   @media (min-width: 2500px) {
     img {
       /** Match the wider DesktopNav */
       left: 400px;
     }
-  }
-  /*5xl*/
-  @media (min-width: 3000px) {
   }
 </style>

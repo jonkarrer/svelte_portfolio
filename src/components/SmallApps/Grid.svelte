@@ -16,6 +16,16 @@
 </div>
 
 <style>
+  .wrapper {
+    display: grid;
+    margin: 0 15px;
+    gap: 5%;
+  }
+  .grid_container {
+    display: grid;
+    grid: auto-flow / repeat(2, 1fr);
+    gap: 10px;
+  }
   /*Lg*/
   @media (min-width: 1024px) {
     .wrapper {

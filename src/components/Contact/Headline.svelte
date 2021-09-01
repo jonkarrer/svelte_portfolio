@@ -4,11 +4,20 @@
 </div>
 
 <style>
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  h1 {
+    margin: 0 10px;
+  }
   /*Lg*/
   @media (min-width: 1024px) {
     div {
       display: flex;
       align-items: center;
+      justify-content: initial;
       position: absolute;
       bottom: 20px;
       right: 40px;

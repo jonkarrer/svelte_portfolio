@@ -5,14 +5,17 @@
 </div>
 
 <style>
+  div {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 30px;
+    width: max-content;
+    font-weight: bold;
+  }
   /*Lg*/
   @media (min-width: 1024px) {
     div {
-      display: grid;
-      grid-auto-flow: column;
       gap: 40px;
-      width: max-content;
-      font-weight: bold;
     }
   }
   /*4xl*/

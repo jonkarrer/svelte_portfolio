@@ -7,6 +7,10 @@
 </div>
 
 <style>
+  div {
+    height: 150px;
+    background: cyan;
+  }
   /*Lg*/
   @media (min-width: 1024px) {
     div {

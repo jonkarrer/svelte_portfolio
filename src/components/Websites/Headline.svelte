@@ -7,7 +7,7 @@
 <style>
   div {
     width: 85vw;
-    margin: 80px auto;
+    margin: 40px auto;
   }
   .mid {
     text-align: center;

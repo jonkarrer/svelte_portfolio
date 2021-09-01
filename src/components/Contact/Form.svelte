@@ -12,6 +12,35 @@
 </form>
 
 <style>
+  form {
+    display: grid;
+    gap: 20px;
+    background: var(--lt-grey);
+    width: 90vw;
+    height: 400px;
+    padding: 15px;
+  }
+  label {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+  }
+  input {
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: black solid thin;
+    width: 100%;
+    margin: 0 10px;
+    padding: 5px;
+    height: 30px;
+    font-size: 1.3rem;
+  }
+  textarea {
+    font-size: 1.3rem;
+    outline: none;
+    padding: 5px;
+  }
   /*Lg*/
   @media (min-width: 1024px) {
     form {
@@ -34,14 +63,6 @@
       width: 100%;
     }
     input {
-      background: none;
-      outline: none;
-      border: none;
-      border-bottom: black solid thin;
-      width: 100%;
-      margin: 0 10px;
-      padding: 5px;
-      height: 30px;
       font-size: 1.3rem;
     }
     textarea {

@@ -14,7 +14,7 @@
 
 <style>
   section {
-    margin: 50px 0;
+    margin: 60px 0;
     display: grid;
     place-items: center;
     height: auto;

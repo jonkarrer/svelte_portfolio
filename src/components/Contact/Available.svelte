@@ -1,5 +1,5 @@
 <ul>
-  <h3>I am avaliable for ....</h3>
+  <h3>I am avaliable for....</h3>
   <li>Freelance web development</li>
   <li>Business Consulting</li>
   <li>Full time position at a company</li>
@@ -7,6 +7,18 @@
 </ul>
 
 <style>
+  ul {
+    width: 95%;
+    margin: auto;
+  }
+  li {
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 1.5rem;
+  }
+  h3 {
+    font-size: 2rem;
+  }
   /*Lg*/
   @media (min-width: 1024px) {
     ul {

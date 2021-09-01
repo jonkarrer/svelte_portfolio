@@ -13,6 +13,14 @@
 </section>
 
 <style>
+  section {
+    padding: 60px 0;
+  }
+  .wrapper {
+    height: auto;
+    display: grid;
+    gap: 60px;
+  }
   /*Lg*/
   @media (min-width: 1024px) {
     section {

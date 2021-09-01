@@ -5,20 +5,12 @@
 </div>
 
 <style>
-  /*Lg*/
-  @media (min-width: 1024px) {
-    div {
-      display: flex;
-      justify-content: center;
-    }
-    h1 {
-      margin: 0 7px;
-    }
+  div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
   }
-  /*Xl*/
-  @media (min-width: 1280px) {
-  }
-  /*2xl*/
-  @media (min-width: 1536px) {
+  h1 {
+    margin: 0 7px;
   }
 </style>

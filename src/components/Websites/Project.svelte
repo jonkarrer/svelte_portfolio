@@ -72,6 +72,7 @@
       -webkit-backdrop-filter: blur(10px);
     }
   }
+
   /*Lg*/
   @media (min-width: 1024px) {
     .wrapper {
@@ -109,6 +110,7 @@
       width: 80%;
     }
   }
+
   /*2xl*/
   @media (min-width: 1536px) {
     article {
@@ -120,18 +122,21 @@
       width: var(--logoWidth);
     }
   }
+
   /*3xl*/
   @media (min-width: 2000px) {
     .logo {
       width: calc(var(--logoWidth) + 30px);
     }
   }
+
   /*4xl*/
   @media (min-width: 2500px) {
     .logo {
       width: calc(var(--logoWidth) + 70px);
     }
   }
+
   /*5xl*/
   @media (min-width: 3000px) {
     article {
@@ -142,6 +147,7 @@
       width: calc(var(--logoWidth) + 120px);
     }
   }
+
   /*4k*/
   @media (min-width: 3500px) {
     article {
