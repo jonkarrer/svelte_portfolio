@@ -25,6 +25,7 @@
       position: absolute;
       left: 150px;
       top: 8%;
+      width: auto;
     }
     li {
       margin-left: 50px;

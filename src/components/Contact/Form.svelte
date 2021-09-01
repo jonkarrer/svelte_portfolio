@@ -52,7 +52,7 @@
       height: 400px;
       padding: 30px;
       position: absolute;
-      right: 40px;
+      right: 30px;
       top: 0;
       bottom: 100px;
       margin: auto;

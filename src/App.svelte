@@ -60,7 +60,7 @@
   /*4xl*/
   @media (min-width: 2500px) {
     .outer-wrapper {
-      min-height: 1100px;
+      min-height: 1000px;
     }
   }
   /*5xl*/

@@ -13,6 +13,7 @@
 
       height: 75vh;
       width: auto;
+      margin: auto;
       max-height: var(--change-max-h);
       min-height: var(--change-min-h);
 

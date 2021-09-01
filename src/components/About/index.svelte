@@ -38,7 +38,7 @@
       display: grid;
       width: 50%;
       margin-left: 200px;
-      gap: 60px;
+      gap: 40px;
     }
   }
   /*4xl*/

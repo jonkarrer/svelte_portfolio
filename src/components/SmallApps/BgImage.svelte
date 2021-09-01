@@ -16,6 +16,7 @@
       max-height: var(--change-max-h);
       min-height: var(--change-min-h);
 
+      margin-bottom: 0;
       margin-right: 10vw;
       align-self: flex-end;
     }

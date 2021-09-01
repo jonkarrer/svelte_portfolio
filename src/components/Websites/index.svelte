@@ -35,15 +35,11 @@
 </section>
 
 <style>
-  section {
-    overflow-x: hidden;
-  }
   /*Lg*/
   @media (min-width: 1024px) {
     section {
       display: flex;
       align-items: center;
-      overflow-x: scroll;
     }
   }
   /*Xl*/

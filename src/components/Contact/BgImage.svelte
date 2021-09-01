@@ -10,7 +10,7 @@
   @media (min-width: 1024px) {
     img {
       --change-max-h: calc(600px + 20vh);
-      --change-min-h: calc(120px + 35vh);
+      --change-min-h: calc(100px + 30vh);
 
       height: 40vh;
       width: auto;

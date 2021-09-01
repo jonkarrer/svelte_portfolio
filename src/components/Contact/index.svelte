@@ -26,6 +26,7 @@
       min-width: 100vw;
       min-height: 600px;
       position: relative;
+      margin: auto;
     }
   }
   /*2xl*/

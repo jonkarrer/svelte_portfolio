@@ -20,7 +20,7 @@
       justify-content: initial;
       position: absolute;
       bottom: 20px;
-      right: 40px;
+      right: 30px;
     }
     h1 {
       margin: 0 10px;
