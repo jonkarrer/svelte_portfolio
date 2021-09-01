@@ -28,31 +28,77 @@
 </div>
 
 <style>
+  .wrapper {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+  }
+  .screenshot {
+    position: absolute;
+    height: 90vh;
+    right: -170px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  article {
+    display: grid;
+    place-content: center;
+    gap: 20px;
+    height: 80vh;
+    width: 85vw;
+    margin: auto;
+    padding: 15px;
+    /** Frosted Glass fallback */
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+  span {
+    height: 120px;
+    display: flex;
+    align-items: center;
+  }
+  .logo {
+    width: var(--logoWidth);
+  }
+  .info {
+    display: grid;
+    gap: 30px;
+  }
+  @supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+    article {
+      background-color: rgba(140, 136, 136, 0.5);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+    }
+  }
   /*Lg*/
   @media (min-width: 1024px) {
     .wrapper {
       display: flex;
       align-items: center;
+      position: static;
     }
     .screenshot {
       --change-max-h: calc(500px + 10vh);
       --change-min-h: calc(250px + 50vh);
 
+      position: static;
       height: 75vh;
       max-height: var(--change-max-h);
       min-height: var(--change-min-h);
     }
     article {
-      display: grid;
-
-      height: 60vh;
       max-height: var(--change-max-h);
       min-height: var(--change-min-h);
+      background: none;
+      width: 650px;
+      height: 60vh;
 
-      width: 50vw;
+      background: none;
     }
     span {
-      height: 10vh;
+      height: 120px;
       display: flex;
       align-items: center;
     }
@@ -62,13 +108,14 @@
     p {
       width: 80%;
     }
-    .info {
-      display: grid;
-      gap: 30px;
-    }
   }
   /*2xl*/
   @media (min-width: 1536px) {
+    article {
+      gap: 15px;
+      width: 50vw;
+      height: 60vh;
+    }
     .logo {
       width: var(--logoWidth);
     }

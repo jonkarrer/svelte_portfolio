@@ -5,7 +5,7 @@
   @media (min-width: 1024px) {
     img {
       --change-max-h: calc(600px + 20vh);
-      --change-min-h: calc(120px + 40vh);
+      --change-min-h: calc(120px + 35vh);
 
       height: 40vh;
       max-height: var(--change-max-h);

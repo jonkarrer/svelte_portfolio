@@ -9,6 +9,10 @@
 </div>
 
 <style>
+  div {
+    display: grid;
+    gap: 10px;
+  }
   /*Lg*/
   @media (min-width: 1024px) {
     div {

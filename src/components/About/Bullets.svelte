@@ -18,6 +18,18 @@
 </div>
 
 <style>
+  div {
+    display: grid;
+    gap: 15px;
+  }
+  span {
+    display: flex;
+    align-items: center;
+  }
+  img {
+    width: 30px;
+    margin-right: 20px;
+  }
   /*Lg*/
   @media (min-width: 1024px) {
     div {

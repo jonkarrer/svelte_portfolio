@@ -5,20 +5,21 @@
 </div>
 
 <style>
+  div {
+    width: 85vw;
+    margin: 80px auto;
+  }
+  .mid {
+    text-align: center;
+  }
+  .bottom {
+    text-align: end;
+  }
   /*Lg*/
   @media (min-width: 1024px) {
     div {
       width: 500px;
       margin: 0 160px;
-    }
-    /* h1 {
-      font-size: 120px;
-    } */
-    .mid {
-      text-align: center;
-    }
-    .bottom {
-      text-align: end;
     }
   }
   /*2xl*/
@@ -27,18 +28,13 @@
       width: 850px;
       margin: 0 180px;
     }
-    /* h1 {
-      font-size: 150px;
-    } */
-    .mid {
-      text-align: center;
-    }
-    .bottom {
-      text-align: end;
-    }
   }
   /*3xl*/
   @media (min-width: 2000px) {
+    div {
+      width: 900px;
+      margin: 0 180px;
+    }
   }
   /*4xl*/
   @media (min-width: 2500px) {

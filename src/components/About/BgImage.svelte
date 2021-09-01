@@ -1,6 +1,10 @@
 <img src="assets/background/gears.svg" alt="" />
 
 <style>
+  img {
+    height: 50vh;
+    margin: auto;
+  }
   /*Lg*/
   @media (min-width: 1024px) {
     img {

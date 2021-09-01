@@ -7,7 +7,7 @@
   <Headline />
   <Project
     logoPath="assets/work/logos/mml.png"
-    logoWidth={120}
+    logoWidth={110}
     screenshot="assets/work/mml_phone.png"
     title="Making Markets"
     info="This project is robust. Auth, subscriptions, Next.js, database API,

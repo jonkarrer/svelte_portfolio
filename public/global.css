@@ -29,7 +29,6 @@ html {
   scroll-behavior: smooth;
 }
 section {
-  height: 100vh;
   background: var(--background);
 }
 
@@ -41,6 +40,10 @@ section {
 }
 /*Lg*/
 @media (min-width: 1024px) {
+  section {
+    height: 100vh;
+    background: var(--background);
+  }
 }
 /*Xl*/
 @media (min-width: 1280px) {
