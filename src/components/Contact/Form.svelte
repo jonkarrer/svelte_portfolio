@@ -17,13 +17,16 @@
     gap: 20px;
     background: var(--lt-grey);
     width: 90vw;
-    height: 400px;
+    margin: auto;
     padding: 15px;
   }
   label {
     display: flex;
     align-items: flex-end;
     width: 100%;
+  }
+  button {
+    margin: auto;
   }
   input {
     background: none;
@@ -40,16 +43,15 @@
     font-size: 1.3rem;
     outline: none;
     padding: 5px;
+    width: 100%;
   }
   /*Lg*/
   @media (min-width: 1024px) {
     form {
       display: grid;
-      gap: 20px;
-      background: var(--lt-grey);
       width: 40vw;
       max-width: 600px;
-      height: 400px;
+      height: auto;
       padding: 30px;
       position: absolute;
       right: 30px;
@@ -70,6 +72,9 @@
       outline: none;
       padding: 5px;
     }
+    button {
+      margin: 0;
+    }
   }
   /*Xl*/
   @media (min-width: 1280px) {
@@ -77,7 +82,7 @@
       gap: 25;
       width: 40vw;
       max-width: 1000px;
-      height: 400px;
+      height: 500px;
       padding: 30px;
     }
   }
@@ -87,7 +92,7 @@
       gap: 30px;
       width: 45vw;
       max-width: 800px;
-      height: 500px;
+      height: 600px;
       padding: 30px;
       right: 50px;
     }

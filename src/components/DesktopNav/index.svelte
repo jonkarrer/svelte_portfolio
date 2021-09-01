@@ -27,7 +27,7 @@
       place-items: center;
 
       /** Frosted Glass fallback */
-      background-color: rgba(255, 255, 255, 0.4);
+      background-color: rgba(140, 136, 136, 0.8);
 
       position: fixed;
       top: 0;

@@ -21,18 +21,37 @@
 <style>
   /*Lg*/
   @media (min-width: 1024px) {
+    main {
+      position: fixed;
+      top: 0;
+      left: 0;
+    }
     .wrapper {
       display: flex;
       flex-direction: row;
       transform: rotate(90deg) translateY(-100vh);
+      -ms-transform: rotate(90deg) translateY(-100vh);
+      -o-transform: rotate(90deg) translateY(-100vh);
+      -moz-transform: rotate(90deg) translateY(-100vh);
+      -webkit-transform: rotate(90deg) translateY(-100vh);
       transform-origin: top left;
+      -ms-transform-origin: top left;
+      -moz-transform-origin: top left;
+      -webkit-transform-origin: top left;
     }
     .outer-wrapper {
       width: 100vh;
       height: 100vw;
       min-height: 600px;
       transform: rotate(-90deg) translateX(-100vh);
+      -ms-transform: rotate(-90deg) translateX(-100vh);
+      -o-transform: rotate(-90deg) translateX(-100vh);
+      -moz-transform: rotate(-90deg) translateX(-100vh);
+      -webkit-transform: rotate(-90deg) translateX(-100vh);
       transform-origin: top left;
+      -ms-transform-origin: top left;
+      -moz-transform-origin: top left;
+      -webkit-transform-origin: top left;
       overflow-y: scroll;
       overflow-x: hidden;
       position: absolute;

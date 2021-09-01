@@ -51,7 +51,7 @@
     margin: auto;
     padding: 15px;
     /** Frosted Glass fallback */
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(140, 136, 136, 0.8);
     z-index: 10;
   }
   span {
