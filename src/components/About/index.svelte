@@ -22,7 +22,7 @@
   article {
     display: grid;
     margin: auto;
-    width: 90%;
+    width: 95%;
     gap: 40px;
   }
 
