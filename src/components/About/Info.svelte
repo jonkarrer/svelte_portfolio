@@ -16,7 +16,7 @@
       gap: 15px;
     }
     p {
-      width: calc(350px + 30vw);
+      width: calc(300px + 30vw);
     }
   }
   /*2xl*/

@@ -67,9 +67,6 @@
       gap: 30px;
     }
   }
-  /*Xl*/
-  @media (min-width: 1280px) {
-  }
   /*2xl*/
   @media (min-width: 1536px) {
     .logo {
@@ -85,7 +82,7 @@
   /*4xl*/
   @media (min-width: 2500px) {
     .logo {
-      width: calc(var(--logoWidth) + 100px);
+      width: calc(var(--logoWidth) + 70px);
     }
   }
   /*5xl*/

@@ -55,12 +55,21 @@
   }
   /*4xl*/
   @media (min-width: 2500px) {
+    span {
+      height: 150px;
+    }
+    span p {
+      font-size: 1.8rem;
+    }
+    img {
+      width: 60px;
+    }
   }
   /*5xl*/
   @media (min-width: 3000px) {
     span {
       height: 200px;
-      gap: 20px;
+      gap: 25px;
     }
     span p {
       font-size: 2rem;

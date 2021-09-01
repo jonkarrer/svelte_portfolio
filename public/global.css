@@ -10,21 +10,11 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
 }
-/* body::-webkit-scrollbar {
-  display: none;
-}
-
-body {
-  -ms-overflow-style: none; 
-  scrollbar-width: none;
-} */
-
 :root {
   --background: #c4c4c4;
   --dk-grey: rgb(140, 136, 136);
   --lt-grey: #e5e5e5;
 }
-
 a {
   text-decoration: none;
   color: inherit;

@@ -26,13 +26,13 @@
   }
   /*4xl*/
   @media (min-width: 2500px) {
+    nav {
+      gap: 35px;
+      font-size: 1.7rem;
+    }
   }
   /*5xl*/
   @media (min-width: 3000px) {
-    nav {
-      gap: 35px;
-      font-size: 2.2rem;
-    }
   }
   /*4k*/
   @media (min-width: 3500px) {

@@ -10,19 +10,17 @@
   }
   /*4xl*/
   @media (min-width: 2500px) {
+    img {
+      width: 120px;
+    }
   }
   /*5xl*/
   @media (min-width: 3000px) {
-    img {
-      width: 135px;
-      margin: auto;
-    }
   }
   /*4k*/
   @media (min-width: 3500px) {
     img {
       width: 135px;
-      margin: auto;
     }
   }
 </style>
