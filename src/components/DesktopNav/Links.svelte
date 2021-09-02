@@ -20,7 +20,7 @@
   @media (min-width: 2000px) {
     nav {
       gap: 30px;
-      font-size: 1.7rem;
+      font-size: 1.6rem;
     }
   }
 
