@@ -40,17 +40,9 @@
       color: white;
     }
   }
-  /*Xl*/
-  @media (min-width: 1280px) {
-  }
+
   /*2xl*/
   @media (min-width: 1536px) {
-  }
-  /*3xl*/
-  @media (min-width: 2000px) {
-  }
-  /*4xl*/
-  @media (min-width: 2500px) {
     menu {
       gap: 30px;
     }
@@ -58,14 +50,31 @@
       width: 40px;
     }
     a:hover::after {
+      height: 30px;
+      padding: 0 6px;
+      font-size: 1.2rem;
+    }
+  }
+
+  /*3xl*/
+  @media (min-width: 2000px) {
+  }
+
+  /*4xl*/
+  @media (min-width: 2500px) {
+    menu {
+      gap: 40px;
+    }
+    img {
+      width: 50px;
+    }
+    a:hover::after {
       height: 40px;
       padding: 0 6px;
       font-size: 2rem;
     }
   }
-  /*5xl*/
-  @media (min-width: 3000px) {
-  }
+
   /*4k*/
   @media (min-width: 3500px) {
     menu {

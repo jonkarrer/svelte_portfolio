@@ -16,6 +16,7 @@
   header {
     display: none;
   }
+
   /*Lg*/
   @media (min-width: 1024px) {
     header {
@@ -55,6 +56,7 @@
   @media (min-width: 2000px) {
     header {
       min-height: 900px;
+      width: 140px;
     }
   }
 

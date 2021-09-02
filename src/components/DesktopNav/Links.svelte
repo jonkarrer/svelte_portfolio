@@ -15,26 +15,28 @@
       font-weight: 900;
     }
   }
-  /*Xl*/
-  @media (min-width: 1280px) {
-  }
-  /*2xl*/
-  @media (min-width: 1536px) {
-  }
+
   /*3xl*/
   @media (min-width: 2000px) {
+    nav {
+      gap: 30px;
+      font-size: 1.7rem;
+    }
   }
+
   /*4xl*/
   @media (min-width: 2500px) {
     nav {
       gap: 35px;
-      font-size: 1.7rem;
+      font-size: 1.9rem;
     }
   }
-  /*5xl*/
-  @media (min-width: 3000px) {
-  }
+
   /*4k*/
   @media (min-width: 3500px) {
+    nav {
+      gap: 40px;
+      font-size: 2.1rem;
+    }
   }
 </style>

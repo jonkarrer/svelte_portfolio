@@ -44,15 +44,7 @@
       cursor: pointer;
     }
   }
-  /*Xl*/
-  @media (min-width: 1280px) {
-  }
-  /*2xl*/
-  @media (min-width: 1536px) {
-  }
-  /*3xl*/
-  @media (min-width: 2000px) {
-  }
+
   /*4xl*/
   @media (min-width: 2500px) {
     span {
@@ -65,6 +57,7 @@
       width: 60px;
     }
   }
+
   /*5xl*/
   @media (min-width: 3000px) {
     span {
@@ -77,8 +70,5 @@
     img {
       width: 70px;
     }
-  }
-  /*4k*/
-  @media (min-width: 3500px) {
   }
 </style>
