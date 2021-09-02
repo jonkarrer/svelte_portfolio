@@ -25,7 +25,6 @@
       width: 100vh;
       height: 100vw;
       min-height: 600px;
-      background: blue;
       transform: rotate(-90deg) translateX(-100vh);
       -ms-transform: rotate(-90deg) translateX(-100vh);
       -o-transform: rotate(-90deg) translateX(-100vh);
@@ -44,7 +43,6 @@
 
     .wrapper {
       display: flex;
-      background: red;
       transform: rotate(90deg) translateY(-100vh);
       -ms-transform: rotate(90deg) translateY(-100vh);
       -o-transform: rotate(90deg) translateY(-100vh);

@@ -22,6 +22,7 @@
       left: 200px;
     }
   }
+
   /*4xl*/
   @media (min-width: 2500px) {
     img {

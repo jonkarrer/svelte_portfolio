@@ -26,7 +26,6 @@
     section {
       display: flex;
       align-items: center;
-      padding: 0 100px;
     }
     .wrapper {
       height: 100%;
@@ -35,10 +34,11 @@
       justify-content: space-evenly;
     }
   }
-  /*Xl*/
-  @media (min-width: 1280px) {
-  }
-  /*2xl*/
-  @media (min-width: 1536px) {
+
+  /*3xl*/
+  @media (min-width: 2000px) {
+    section {
+      padding: 0 100px;
+    }
   }
 </style>

@@ -22,8 +22,8 @@
       <p>
         {info}
       </p>
-      <button>Visit</button>
     </div>
+    <button>Visit</button>
   </article>
 </div>
 
@@ -147,6 +147,9 @@
     .logo {
       width: calc(var(--logoWidth) + 60px);
     }
+    article {
+      gap: 60px;
+    }
   }
 
   /*4k*/
@@ -156,7 +159,7 @@
       width: 1800px;
     }
     .logo {
-      width: calc(var(--logoWidth) + 70px);
+      width: calc(var(--logoWidth) + 80px);
     }
     p {
       width: 1300px;

@@ -5,6 +5,7 @@
     width: 95vw;
     margin: 20px auto;
   }
+
   /*Lg*/
   @media (min-width: 1024px) {
     img {

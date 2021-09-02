@@ -36,10 +36,31 @@
     }
   }
 
+  /*3xl*/
+  @media (min-width: 2000px) {
+    div {
+      gap: 25px;
+    }
+  }
+
+  /*4xl*/
+  @media (min-width: 2500px) {
+    div {
+      gap: 30px;
+    }
+  }
+
+  /*5xl*/
+  @media (min-width: 3000px) {
+    div {
+      gap: 35px;
+    }
+  }
+
   /*4k*/
   @media (min-width: 3500px) {
     div {
-      gap: 30px;
+      gap: 40px;
     }
     p {
       max-width: 1600px;

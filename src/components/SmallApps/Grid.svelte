@@ -38,10 +38,10 @@
       gap: 20px;
     }
   }
-  /*Xl*/
-  @media (min-width: 1280px) {
-  }
-  /*2xl*/
-  @media (min-width: 1536px) {
+  /*5xl*/
+  @media (min-width: 3000px) {
+    .grid_container {
+      gap: 30px;
+    }
   }
 </style>

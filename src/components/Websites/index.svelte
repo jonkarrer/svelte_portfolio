@@ -42,9 +42,11 @@
       align-items: center;
     }
   }
+
   /*Xl*/
   @media (min-width: 1280px) {
   }
+
   /*2xl*/
   @media (min-width: 1536px) {
   }

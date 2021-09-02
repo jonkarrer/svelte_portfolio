@@ -19,6 +19,7 @@
   h3 {
     font-size: 2rem;
   }
+
   /*Lg*/
   @media (min-width: 1024px) {
     ul {
@@ -36,6 +37,7 @@
       font-size: 2rem;
     }
   }
+
   /*Xl*/
   @media (min-width: 1280px) {
     li {
@@ -45,6 +47,7 @@
       font-size: 2.6rem;
     }
   }
+
   /*2xl*/
   @media (min-width: 1536px) {
     ul {
@@ -58,6 +61,7 @@
       font-size: 3.4rem;
     }
   }
+
   /*3xl*/
   @media (min-width: 2000px) {
     ul {
@@ -71,6 +75,7 @@
       font-size: 5.3rem;
     }
   }
+
   /*4xl*/
   @media (min-width: 2500px) {
     ul {
@@ -78,21 +83,23 @@
     }
     li {
       margin-top: 35px;
-      font-size: 3rem;
+      font-size: 2.9rem;
     }
     h3 {
-      font-size: 6.3rem;
+      font-size: 4rem;
     }
   }
+
   /*5xl*/
   @media (min-width: 3000px) {
     li {
-      font-size: 3.4rem;
+      font-size: 3.5rem;
     }
     h3 {
-      font-size: 7.6rem;
+      font-size: 7.4rem;
     }
   }
+
   /*4k*/
   @media (min-width: 3500px) {
     ul {

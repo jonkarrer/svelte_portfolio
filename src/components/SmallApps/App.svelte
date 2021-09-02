@@ -16,9 +16,9 @@
     div {
       height: 170px;
       width: 270px;
-      background: cyan;
     }
   }
+
   /*Xl*/
   @media (min-width: 1280px) {
     div {
@@ -26,39 +26,36 @@
       width: 300px;
     }
   }
-  /*2xl*/
-  @media (min-width: 1536px) {
-    div {
-      height: 250px;
-      width: 360px;
-    }
-  }
+
   /*3xl*/
   @media (min-width: 2000px) {
     div {
-      height: 280px;
-      width: 430px;
+      height: 240px;
+      width: 360px;
     }
   }
+
   /*4xl*/
   @media (min-width: 2500px) {
     div {
-      height: 300px;
-      width: 480px;
+      height: 280px;
+      width: 400px;
     }
   }
+
   /*5xl*/
   @media (min-width: 3000px) {
     div {
-      height: 370px;
-      width: 670px;
+      height: 360px;
+      width: 580px;
     }
   }
+
   /*4k*/
   @media (min-width: 3500px) {
     div {
-      height: 450px;
-      width: 750px;
+      height: 400px;
+      width: 630px;
     }
   }
 </style>

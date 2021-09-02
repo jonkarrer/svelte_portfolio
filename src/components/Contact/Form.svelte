@@ -45,6 +45,7 @@
     padding: 5px;
     width: 100%;
   }
+
   /*Lg*/
   @media (min-width: 1024px) {
     form {
@@ -77,6 +78,7 @@
       margin: 0;
     }
   }
+
   /*Xl*/
   @media (min-width: 1280px) {
     form {
@@ -87,6 +89,7 @@
       padding: 30px;
     }
   }
+
   /*2xl*/
   @media (min-width: 1536px) {
     form {
@@ -97,49 +100,54 @@
       padding: 30px;
       right: 50px;
     }
+
     textarea {
       font-size: 1.5rem;
       height: 200px;
     }
-    /*3xl*/
-    @media (min-width: 2000px) {
-      form {
-        gap: 40px;
-        height: 650px;
-        max-width: 900px;
-      }
-      textarea {
-        font-size: 2rem;
-        height: 250px;
-      }
+  }
+
+  /*3xl*/
+  @media (min-width: 2000px) {
+    form {
+      gap: 40px;
+      height: 650px;
+      max-width: 900px;
     }
-    /*4xl*/
-    @media (min-width: 2500px) {
-      form {
-        gap: 60px;
-        max-width: 1000px;
-        height: 700px;
-        padding: 40px;
-        right: 60px;
-      }
+    textarea {
+      font-size: 2rem;
+      height: 250px;
     }
-    /*5xl*/
-    @media (min-width: 3000px) {
-      form {
-        gap: 60px;
-        max-width: 1600px;
-        height: 800px;
-        padding: 40px;
-        right: 100px;
-      }
+  }
+
+  /*4xl*/
+  @media (min-width: 2500px) {
+    form {
+      gap: 60px;
+      max-width: 1000px;
+      height: 700px;
+      padding: 40px;
+      right: 60px;
     }
-    /*4k*/
-    @media (min-width: 3500px) {
-      form {
-        gap: 80px;
-        max-width: 2500px;
-        height: 1000px;
-      }
+  }
+
+  /*5xl*/
+  @media (min-width: 3000px) {
+    form {
+      gap: 60px;
+      max-width: 1300px;
+      height: 800px;
+      padding: 40px;
+      right: 100px;
+    }
+  }
+
+  /*4k*/
+  @media (min-width: 3500px) {
+    form {
+      gap: 80px;
+      max-width: 1500px;
+      height: 900px;
     }
   }
 </style>

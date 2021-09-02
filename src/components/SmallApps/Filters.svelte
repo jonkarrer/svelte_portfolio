@@ -18,10 +18,4 @@
       gap: 40px;
     }
   }
-  /*4xl*/
-  @media (min-width: 2500px) {
-    div {
-      gap: 80px;
-    }
-  }
 </style>
