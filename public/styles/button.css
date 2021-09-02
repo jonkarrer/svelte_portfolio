@@ -6,36 +6,46 @@ button {
   outline: none;
   border: none;
 }
-
+button:hover {
+  cursor: pointer;
+}
 /*Xl*/
 @media (min-width: 1280px) {
+  button {
+    height: 70px;
+    width: 220px;
+    color: white;
+    background: black;
+    outline: none;
+    border: none;
+  }
 }
 /*2xl*/
 @media (min-width: 1536px) {
   button {
-    height: 80px;
-    width: 260px;
+    height: 75px;
+    width: 220px;
   }
 }
 /*3xl*/
 @media (min-width: 2000px) {
   button {
-    height: 90px;
-    width: 300px;
+    height: 85px;
+    width: 260px;
   }
 }
 /*4xl*/
 @media (min-width: 2500px) {
   button {
-    height: 110px;
-    width: 350px;
+    height: 95px;
+    width: 300px;
   }
 }
 /*5xl*/
 @media (min-width: 3000px) {
   button {
-    height: 120px;
-    width: 400px;
+    height: 110px;
+    width: 350px;
   }
 }
 /*4k*/

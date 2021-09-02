@@ -21,28 +21,11 @@
 <style>
   /*Lg*/
   @media (min-width: 1024px) {
-    main {
-      position: fixed;
-      top: 0;
-      left: 0;
-    }
-    .wrapper {
-      display: flex;
-      flex-direction: row;
-      transform: rotate(90deg) translateY(-100vh);
-      -ms-transform: rotate(90deg) translateY(-100vh);
-      -o-transform: rotate(90deg) translateY(-100vh);
-      -moz-transform: rotate(90deg) translateY(-100vh);
-      -webkit-transform: rotate(90deg) translateY(-100vh);
-      transform-origin: top left;
-      -ms-transform-origin: top left;
-      -moz-transform-origin: top left;
-      -webkit-transform-origin: top left;
-    }
     .outer-wrapper {
       width: 100vh;
       height: 100vw;
       min-height: 600px;
+      background: blue;
       transform: rotate(-90deg) translateX(-100vh);
       -ms-transform: rotate(-90deg) translateX(-100vh);
       -o-transform: rotate(-90deg) translateX(-100vh);
@@ -59,6 +42,20 @@
       -ms-overflow-style: none;
     }
 
+    .wrapper {
+      display: flex;
+      background: red;
+      transform: rotate(90deg) translateY(-100vh);
+      -ms-transform: rotate(90deg) translateY(-100vh);
+      -o-transform: rotate(90deg) translateY(-100vh);
+      -moz-transform: rotate(90deg) translateY(-100vh);
+      -webkit-transform: rotate(90deg) translateY(-100vh);
+      transform-origin: top left;
+      -ms-transform-origin: top left;
+      -moz-transform-origin: top left;
+      -webkit-transform-origin: top left;
+    }
+
     ::-webkit-scrollbar {
       display: none;
     }
@@ -67,7 +64,7 @@
   /*2xl*/
   @media (min-width: 1536px) {
     .outer-wrapper {
-      min-height: 850px;
+      min-height: 800px;
     }
   }
   /*3xl*/
@@ -85,7 +82,7 @@
   /*5xl*/
   @media (min-width: 3000px) {
     .outer-wrapper {
-      min-height: 1300px;
+      min-height: 1200px;
     }
   }
   /*4k*/

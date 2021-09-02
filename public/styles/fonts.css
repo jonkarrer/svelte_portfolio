@@ -10,7 +10,7 @@ p {
   font-family: "Assistant", sans-serif;
   font-weight: 300;
   font-size: 1.2rem;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 a {
   font-family: "Assistant", sans-serif;
@@ -24,12 +24,12 @@ button {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 3.7rem;
   filter: drop-shadow(3px 10px 4px rgba(0, 0, 0, 0.25));
   -webkit-filter: drop-shadow(3px 10px 4px rgba(0, 0, 0, 0.25));
 }
 h2 {
-  font-size: 3.2rem;
+  font-size: 3.1rem;
   filter: drop-shadow(3px 6px 4px rgba(0, 0, 0, 0.25));
   -webkit-filter: drop-shadow(3px 6px 4px rgba(0, 0, 0, 0.25));
 }
@@ -44,7 +44,7 @@ h5 {
   font-weight: 600;
 }
 h6 {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 /*Lg*/
@@ -78,53 +78,53 @@ h6 {
 /*2xl*/
 @media (min-width: 1536px) {
   h1 {
-    font-size: 9rem;
+    font-size: 7.7rem;
   }
   h2 {
-    font-size: 6rem;
+    font-size: 5.2rem;
   }
   h3 {
-    font-size: 4.2rem;
+    font-size: 4rem;
   }
   h4 {
-    font-size: 2.7rem;
+    font-size: 2.3rem;
   }
   h5 {
-    font-size: 2.2rem;
+    font-size: 2rem;
   }
   h6 {
     font-size: 1.7rem;
   }
   p {
-    font-size: 1.9rem;
+    font-size: 1.7rem;
   }
   button {
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
 }
 
 /*3xl*/
 @media (min-width: 2000px) {
   h1 {
-    font-size: 10rem;
+    font-size: 8rem;
   }
   h2 {
-    font-size: 8.5rem;
+    font-size: 7rem;
   }
   h3 {
-    font-size: 7.5rem;
+    font-size: 5rem;
   }
   h4 {
-    font-size: 3.4rem;
+    font-size: 3rem;
   }
   h5 {
     font-size: 2.6rem;
   }
   h6 {
-    font-size: 1.7rem;
+    font-size: 1.9rem;
   }
   p {
-    font-size: 2.2rem;
+    font-size: 2rem;
   }
   button {
     font-size: 2rem;
@@ -134,13 +134,13 @@ h6 {
 /*4xl*/
 @media (min-width: 2500px) {
   h1 {
-    font-size: 12rem;
+    font-size: 8.8rem;
   }
   h2 {
-    font-size: 9.5rem;
+    font-size: 7.8rem;
   }
   h3 {
-    font-size: 7.5rem;
+    font-size: 6rem;
   }
   h4 {
     font-size: 4rem;
@@ -149,10 +149,10 @@ h6 {
     font-size: 3rem;
   }
   h6 {
-    font-size: 1.9rem;
+    font-size: 2.3rem;
   }
   p {
-    font-size: 2.6rem;
+    font-size: 2.3rem;
   }
   button {
     font-size: 2.2rem;

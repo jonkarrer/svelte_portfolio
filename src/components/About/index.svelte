@@ -1,29 +1,29 @@
 <script>
   import BgImage from "./BgImage.svelte";
   import Bullets from "./Bullets.svelte";
-  import Info from "./Info.svelte";
+  import Article from "./Article.svelte";
 </script>
 
 <section>
-  <article>
-    <Info />
+  <div>
+    <Article />
     <Bullets />
-  </article>
+  </div>
   <BgImage />
 </section>
 
 <style>
   section {
-    margin: 60px 0;
     display: grid;
     place-items: center;
+    margin: 60px 0;
     height: auto;
   }
-  article {
+  div {
     display: grid;
-    margin: auto;
-    width: 95%;
     gap: 40px;
+    margin: auto;
+    width: 90%;
   }
 
   /*Lg*/
@@ -31,19 +31,19 @@
     section {
       display: flex;
       align-items: center;
-      height: 100vh;
-      margin: auto;
+      margin: 0 auto;
     }
-    article {
-      display: grid;
+    div {
+      gap: 40px;
       width: 50%;
       margin-left: 200px;
-      gap: 40px;
     }
   }
+
   /*4xl*/
   @media (min-width: 2500px) {
-    article {
+    div {
+      gap: 60px;
       margin-left: 400px;
     }
   }

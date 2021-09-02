@@ -21,42 +21,42 @@
   @media (min-width: 1024px) {
     div {
       width: 500px;
-      margin: 0 160px;
+      margin: 0 100px;
     }
   }
   /*2xl*/
   @media (min-width: 1536px) {
     div {
-      width: 850px;
-      margin: 0 180px;
+      width: 650px;
+      margin: 0 140px;
     }
   }
   /*3xl*/
   @media (min-width: 2000px) {
     div {
-      width: 900px;
+      width: 700px;
       margin: 0 180px;
     }
   }
   /*4xl*/
   @media (min-width: 2500px) {
     div {
-      width: 1000px;
+      width: 800px;
       margin: 0 200px;
     }
   }
   /*5xl*/
   @media (min-width: 3000px) {
     div {
-      width: 1300px;
-      margin: 0 250px;
+      width: 900px;
+      margin: 0 210px;
     }
   }
   /*4k*/
   @media (min-width: 3500px) {
     div {
-      width: 1400px;
-      margin: 0 300px;
+      width: 1000px;
+      margin: 0 220px;
     }
   }
 </style>

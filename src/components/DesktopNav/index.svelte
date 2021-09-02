@@ -46,11 +46,14 @@
   /*2xl*/
   @media (min-width: 1536px) {
     header {
-      min-height: 760px;
+      min-height: 800px;
     }
   }
   /*3xl*/
   @media (min-width: 2000px) {
+    header {
+      min-height: 900px;
+    }
   }
   /*4xl*/
   @media (min-width: 2500px) {

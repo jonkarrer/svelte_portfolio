@@ -41,8 +41,8 @@ section {
 /*Lg*/
 @media (min-width: 1024px) {
   section {
-    height: 100vh;
     background: var(--background);
+    height: 100vh;
   }
 }
 /*Xl*/

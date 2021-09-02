@@ -71,6 +71,7 @@
       font-size: 1.3rem;
       outline: none;
       padding: 5px;
+      height: 150px;
     }
     button {
       margin: 0;
@@ -82,7 +83,7 @@
       gap: 25;
       width: 40vw;
       max-width: 1000px;
-      height: 500px;
+      height: 400px;
       padding: 30px;
     }
   }
@@ -92,16 +93,24 @@
       gap: 30px;
       width: 45vw;
       max-width: 800px;
-      height: 600px;
+      height: 500px;
       padding: 30px;
       right: 50px;
+    }
+    textarea {
+      font-size: 1.5rem;
+      height: 200px;
     }
     /*3xl*/
     @media (min-width: 2000px) {
       form {
         gap: 40px;
-        height: 600px;
+        height: 650px;
         max-width: 900px;
+      }
+      textarea {
+        font-size: 2rem;
+        height: 250px;
       }
     }
     /*4xl*/
