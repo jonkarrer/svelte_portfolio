@@ -32,6 +32,7 @@
     display: flex;
     align-items: center;
     position: relative;
+    overflow: hidden;
     height: 100vh;
   }
   .screenshot {
