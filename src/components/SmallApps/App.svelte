@@ -1,15 +1,20 @@
 <script lang="ts">
-  export let item: string;
+  export let link: string;
+  export let img: string;
 </script>
 
 <div>
-  <h5>{item}</h5>
+  <a href={link} target="_blank"><img src={img} alt="" /></a>
 </div>
 
 <style>
   div {
     height: 150px;
     background: cyan;
+  }
+  img {
+    height: 100%;
+    width: 100%;
   }
   /*Lg*/
   @media (min-width: 1024px) {

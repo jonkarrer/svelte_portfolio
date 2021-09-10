@@ -13,6 +13,7 @@
     info="This project is robust. Auth, subscriptions, Next.js, database API,
           dynamic content, and more. This is still under construction but will be
           finished soon."
+    link="https://market-maker.vercel.app"
   />
   <Project
     logoPath="assets/work/logos/amanda.svg"
@@ -22,6 +23,7 @@
     info="This project is robust. Auth, subscriptions, Next.js, database API,
           dynamic content, and more. This is still under construction but will be
           finished soon."
+    link="https://www.hairamandag.com"
   />
   <Project
     logoPath="assets/work/logos/serenity.png"
@@ -31,6 +33,7 @@
     info="This project is robust. Auth, subscriptions, Next.js, database API,
           dynamic content, and more. This is still under construction but will be
           finished soon."
+    link="https://www.serenityhairstudioflorida.com"
   />
 </section>
 

@@ -1,17 +1,30 @@
 <script lang="ts">
-  import Filters from "./Filters.svelte";
   import App from "./App.svelte";
 </script>
 
 <div class="wrapper">
-  <Filters />
   <div class="grid_container">
-    <App item="one" />
-    <App item="two" />
-    <App item="three" />
-    <App item="four" />
-    <App item="five" />
-    <App item="six" />
+    <App
+      img="/assets/web_apps/countries.png"
+      link="https://angry-villani-a63212.netlify.app"
+    />
+    <App
+      img="/assets/web_apps/cards.png"
+      link="https://jonkarrer.github.io/memory-cards/"
+    />
+    <App img="/assets/web_apps/blog.png" link="https://www.chewedup.blog" />
+    <App
+      img="/assets/web_apps/cart.png"
+      link="https://jonkarrer.github.io/capstone-project/order"
+    />
+    <App
+      img="/assets/web_apps/battleship.png"
+      link="https://jonkarrer.github.io/battleship/"
+    />
+    <App
+      img="/assets/web_apps/calculator.png"
+      link="https://jonkarrer.github.io/calculator/"
+    />
   </div>
 </div>
 

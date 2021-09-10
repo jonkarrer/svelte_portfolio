@@ -4,6 +4,7 @@
   export let logoWidth: number;
   export let title: string;
   export let info: string;
+  export let link: string;
 </script>
 
 <div class="wrapper">
@@ -23,7 +24,7 @@
         {info}
       </p>
     </div>
-    <button>Visit</button>
+    <button><a href={link}>Visit</a></button>
   </article>
 </div>
 
