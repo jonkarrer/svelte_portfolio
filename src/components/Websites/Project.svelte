@@ -48,13 +48,14 @@
     display: grid;
     place-content: center;
     gap: 20px;
-    height: 80vh;
+    height: auto;
     width: 85vw;
     margin: auto;
-    padding: 15px;
+    padding: 30px 20px;
     /** Frosted Glass fallback */
     background-color: rgba(140, 136, 136, 0.8);
     z-index: 10;
+    color: white;
   }
   span {
     height: 120px;
@@ -70,7 +71,7 @@
   }
   @supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
     article {
-      background-color: rgba(238, 231, 231, 0.5);
+      background-color: rgba(100, 94, 94, 0.5);
       backdrop-filter: blur(10px);
       -webkit-backdrop-filter: blur(10px);
     }

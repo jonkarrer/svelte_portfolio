@@ -20,10 +20,12 @@
     align-items: center;
     border: black solid thin;
     border-radius: 1rem;
-    padding: 10px 30px;
+    padding: 10px 25px;
+    width: max-content;
+    height: max-content;
   }
   img {
-    width: 40px;
+    width: 35px;
     margin-left: 20px;
   }
   img:hover {
@@ -61,6 +63,7 @@
       bottom: 0;
       margin: auto;
       height: 80px;
+      padding: 10px 30px;
     }
     img {
       width: 60px;
