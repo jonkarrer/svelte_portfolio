@@ -44,7 +44,7 @@
     margin: auto;
 
     padding: 10px;
-    max-width: max-content;
+    width: 70px;
 
     background: black;
     color: white;
@@ -64,6 +64,7 @@
       margin: auto;
       height: 80px;
       padding: 10px 30px;
+      width: auto;
     }
     img {
       width: 60px;

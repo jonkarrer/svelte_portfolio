@@ -98,6 +98,7 @@
       max-height: var(--change-max-h);
       min-height: var(--change-min-h);
       background: none;
+      color: black;
     }
     span {
       height: 120px;

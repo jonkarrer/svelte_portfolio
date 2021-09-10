@@ -9,6 +9,15 @@ button {
 button:hover {
   cursor: pointer;
 }
+
+/*Lg*/
+@media (min-width: 1024px) {
+  button {
+    height: 60px;
+    width: 200px;
+  }
+}
+
 /*Xl*/
 @media (min-width: 1280px) {
   button {
