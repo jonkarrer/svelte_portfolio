@@ -1,16 +1,21 @@
 <script>
   let pathColor = "grey";
+
+  let likes = 23;
 </script>
 
 <span>
   <p>Drop a Like</p>
   <div>
     <img
-      on:click={() => (pathColor = "red")}
+      on:click={() => {
+        pathColor = "red";
+        likes += 1;
+      }}
       src="assets/hearts/{pathColor}.svg"
       alt=""
     />
-    <h5>{23}</h5>
+    <h5>{likes}</h5>
   </div>
 </span>
 

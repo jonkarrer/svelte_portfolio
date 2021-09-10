@@ -4,7 +4,7 @@
   import Grid from "./Grid.svelte";
 </script>
 
-<section>
+<section id="apps">
   <BgImage />
   <div class="wrapper">
     <Headline />

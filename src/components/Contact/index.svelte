@@ -1,16 +1,15 @@
 <script>
   import Available from "./Available.svelte";
   import BgImage from "./BgImage.svelte";
-  import Form from "./Form.svelte";
+  import Email from "./Email.svelte";
   import Headline from "./Headline.svelte";
 </script>
 
-<section>
+<section id="contact">
   <BgImage />
   <Headline />
-
+  <Email />
   <Available />
-  <Form />
 </section>
 
 <style>

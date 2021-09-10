@@ -9,8 +9,8 @@
   /*Lg*/
   @media (min-width: 1024px) {
     img {
-      --change-max-h: calc(600px + 20vh);
-      --change-min-h: calc(100px + 30vh);
+      --change-max-h: calc(600px + 25vh);
+      --change-min-h: calc(100px + 35vh);
 
       height: 40vh;
       width: auto;
@@ -19,6 +19,12 @@
 
       position: absolute;
       bottom: 0;
+      left: 150px;
+    }
+  }
+
+  @media (min-width: 1256px) {
+    img {
       left: 200px;
     }
   }
