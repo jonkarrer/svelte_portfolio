@@ -65,10 +65,11 @@
   /*3xl*/
   @media (min-width: 2000px) {
     ul {
-      left: 200px;
+      left: 300px;
     }
     li {
       margin-top: 35px;
+      margin-left: 80px;
       font-size: 2.6rem;
     }
     h3 {

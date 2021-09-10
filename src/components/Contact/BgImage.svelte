@@ -23,10 +23,26 @@
     }
   }
 
-  @media (min-width: 1256px) {
+  @media (min-width: 1280px) {
     img {
       left: 200px;
     }
+  }
+
+  /*3xl*/
+  @media (min-width: 2000px) {
+    img {
+      left: 400px;
+    }
+  }
+  /*4xl*/
+  @media (min-width: 2500px) {
+  }
+  /*5xl*/
+  @media (min-width: 3000px) {
+  }
+  /*4k*/
+  @media (min-width: 3500px) {
   }
 
   /*4xl*/

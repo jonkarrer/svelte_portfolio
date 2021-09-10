@@ -22,9 +22,6 @@
       bottom: 20px;
       right: 30px;
     }
-    h1 {
-      margin: 0 10px;
-    }
   }
   /*Xl*/
   @media (min-width: 1280px) {
@@ -34,19 +31,25 @@
   }
   /*3xl*/
   @media (min-width: 2000px) {
+    div {
+      bottom: 50px;
+      right: 100px;
+    }
+    h1 {
+      font-size: 12rem;
+    }
   }
   /*4xl*/
   @media (min-width: 2500px) {
-    div {
-      bottom: 30px;
-      right: 60px;
-    }
   }
   /*5xl*/
   @media (min-width: 3000px) {
     div {
-      bottom: 30px;
+      bottom: 50px;
       right: 100px;
+    }
+    h1 {
+      font-size: 13rem;
     }
   }
   /*4k*/

@@ -98,18 +98,28 @@
   /*3xl*/
   @media (min-width: 2000px) {
     div {
-      right: 40px;
-      height: 120px;
+      right: 100px;
+      height: 150px;
     }
     img {
-      width: 90px;
+      width: 100px;
     }
     h3 {
-      font-size: 64px;
+      font-size: 72px;
     }
   }
   /*4xl*/
   @media (min-width: 2500px) {
+    div {
+      right: 150px;
+      height: 180px;
+    }
+    img {
+      width: 110px;
+    }
+    h3 {
+      font-size: 85px;
+    }
   }
   /*5xl*/
   @media (min-width: 3000px) {
