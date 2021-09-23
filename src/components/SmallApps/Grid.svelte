@@ -5,6 +5,10 @@
 <div class="wrapper">
   <div class="grid_container">
     <App
+      img="/assets/web_apps/recipes.png"
+      link="https://jonkarrer.github.io/Recipe_App/"
+    />
+    <App
       img="/assets/web_apps/countries.png"
       link="https://angry-villani-a63212.netlify.app"
     />
@@ -20,10 +24,6 @@
     <App
       img="/assets/web_apps/battleship.png"
       link="https://jonkarrer.github.io/battleship/"
-    />
-    <App
-      img="/assets/web_apps/calculator.png"
-      link="https://jonkarrer.github.io/calculator/"
     />
   </div>
 </div>
