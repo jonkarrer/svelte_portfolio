@@ -20,9 +20,7 @@
     logoWidth={150}
     screenshot="assets/work/amanda_phone.png"
     title="Reaching Clients"
-    info="This project is robust. Auth, subscriptions, Next.js, database API,
-          dynamic content, and more. This is still under construction but will be
-          finished soon."
+    info="The owner wanted to re do her precvious website made with squarespace. I made a pure HTML CSS rebuild for her in a week. She has gotten more clients than she can handle now."
     link="https://www.hairamandag.com"
   />
   <Project
@@ -30,9 +28,7 @@
     logoWidth={150}
     screenshot="assets/work/serenity_phone.png"
     title="Building Brands"
-    info="This project is robust. Auth, subscriptions, Next.js, database API,
-          dynamic content, and more. This is still under construction but will be
-          finished soon."
+    info="A landing page for a hair stylist in florida. Clients can view her work, find her location, and contact her directly throught the page. Designed and coded from scratch."
     link="https://www.serenityhairstudioflorida.com"
   />
 </section>
