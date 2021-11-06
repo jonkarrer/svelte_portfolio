@@ -11,16 +11,12 @@
   -moz-box-sizing: border-box;
 }
 :root {
-  --background: #c4c4c4;
-  --dk-grey: rgb(140, 136, 136);
-  --lt-grey: #e5e5e5;
-}
-a {
-  text-decoration: none;
-  color: inherit;
-}
-a:hover {
-  cursor: pointer;
+  --dark: #0f0e17;
+  --light: #fffffe;
+  --grey: #a7a9be;
+  --orange: #ff8906;
+  --red: #f25f4c;
+  --pink: #e53170;
 }
 html {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
@@ -28,8 +24,11 @@ html {
   background: var(--background);
   scroll-behavior: smooth;
 }
-section {
-  background: var(--background);
+body {
+  background: var(--dark);
+}
+main {
+  margin: 0 30px;
 }
 
 /*Sm*/
@@ -40,26 +39,10 @@ section {
 }
 /*Lg*/
 @media (min-width: 1024px) {
-  section {
-    background: var(--background);
-    height: 100vh;
-  }
 }
 /*Xl*/
 @media (min-width: 1280px) {
 }
 /*2xl*/
 @media (min-width: 1536px) {
-}
-/*3xl*/
-@media (min-width: 2000px) {
-}
-/*4xl*/
-@media (min-width: 2500px) {
-}
-/*5xl*/
-@media (min-width: 3000px) {
-}
-/*4k*/
-@media (min-width: 3500px) {
 }
