@@ -1,11 +1,9 @@
 <script>
-  import Header from "../Header.svelte";
 </script>
 
 <section>
-  <Header />
   <article>
-    <div>
+    <div class="heading-container">
       <h4>Hello, I'm Jonathan <span>Karrer</span></h4>
       <h1>Professional Web Developer</h1>
     </div>
@@ -23,16 +21,20 @@
 
 <style>
   section {
+    min-height: calc(100vh - 75px);
+
     display: flex;
     align-items: center;
-
-    height: 100vh;
   }
   article {
     display: grid;
     gap: 20px;
 
     color: var(--light);
+  }
+  .heading-container {
+    display: grid;
+    gap: 5px;
   }
   span {
     color: var(--red);

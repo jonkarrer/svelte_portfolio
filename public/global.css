@@ -27,10 +27,9 @@ html {
 body {
   background: var(--dark);
 }
-main {
-  margin: 0 30px;
+section {
+  padding: 65px 20px;
 }
-
 /*Sm*/
 @media (min-width: 640px) {
 }

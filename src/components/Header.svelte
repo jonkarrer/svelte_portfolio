@@ -11,11 +11,6 @@
 <style>
   header {
     display: grid;
-    gap: 10px;
-    position: absolute;
-    width: 100%;
-    top: 0;
-    left: 0;
   }
   img {
     margin: auto;
