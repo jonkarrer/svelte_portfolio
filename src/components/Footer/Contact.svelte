@@ -45,4 +45,14 @@
 
     margin-top: 30px;
   }
+
+  /*Md*/
+  @media (min-width: 768px) {
+    .links {
+      grid-auto-flow: column;
+
+      font-size: 18px;
+      font-weight: 700;
+    }
+  }
 </style>

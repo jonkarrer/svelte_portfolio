@@ -26,7 +26,9 @@
 
 <style>
   section {
-    min-height: calc(100vh - 75px);
+    height: calc(100vh - 75px);
+    min-height: 600px;
+
     padding-top: 20%;
   }
   article {
@@ -53,7 +55,6 @@
     background: var(--red);
     margin-top: 10px;
   }
-
   .arrows-container {
     position: absolute;
     bottom: 20px;
@@ -67,5 +68,25 @@
   }
   .arrows-container img {
     width: 40px;
+  }
+
+  /*Md*/
+  @media (min-width: 768px) {
+    section {
+      height: calc(100vh - 150px);
+    }
+
+    .arrows-container img {
+      width: 50px;
+    }
+  }
+  /*Lg*/
+  @media (min-width: 1024px) {
+  }
+  /*Xl*/
+  @media (min-width: 1280px) {
+  }
+  /*2xl*/
+  @media (min-width: 1536px) {
   }
 </style>

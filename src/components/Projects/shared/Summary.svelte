@@ -27,8 +27,20 @@
     border-top-right-radius: 3px;
   }
   .leftBorder {
-    border-left: solid 15px;
+    border-left-width: 15px;
+    border-left-style: solid;
+
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
+  }
+
+  /*Md*/
+  @media (min-width: 768px) {
+    .leftBorder {
+      border-left-width: 30px;
+    }
+    .rightBorder {
+      border-right-width: 30px;
+    }
   }
 </style>

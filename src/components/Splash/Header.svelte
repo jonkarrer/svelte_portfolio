@@ -19,9 +19,44 @@
   }
   nav {
     display: none;
-    justify-content: space-between;
+
     color: var(--light);
     font-weight: 800;
     letter-spacing: 1px;
+  }
+
+  /*Md*/
+  @media (min-width: 768px) {
+    header {
+      display: grid;
+      grid-auto-flow: column;
+      align-items: flex-end;
+      justify-content: flex-start;
+
+      padding: 30px 60px;
+    }
+
+    img {
+      margin: 0;
+
+      width: 125px;
+    }
+    nav {
+      display: grid;
+      grid-auto-flow: column;
+      gap: 40px;
+
+      margin-bottom: 30px;
+      margin-left: 40px;
+    }
+  }
+  /*Lg*/
+  @media (min-width: 1024px) {
+  }
+  /*Xl*/
+  @media (min-width: 1280px) {
+  }
+  /*2xl*/
+  @media (min-width: 1536px) {
   }
 </style>

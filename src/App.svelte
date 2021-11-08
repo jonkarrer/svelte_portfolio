@@ -1,13 +1,11 @@
 <script>
   import Header from "./components/Splash/Header.svelte";
-  import Splash from "./components/Splash/index.svelte";
+  import Splash from "./components/Splash/Splash.svelte";
   import Ecommerce from "./components/Projects/Ecommerce.svelte";
   import SPA from "./components/Projects/SPA.svelte";
   import Landing from "./components/Projects/Landing.svelte";
   import Webapp from "./components/Projects/Webapp.svelte";
-  import Tiles from "./components/Footer/Tiles.svelte";
-  import Clients from "./components/Footer/Clients.svelte";
-  import Contact from "./components/Footer/Contact.svelte";
+  import Footer from "./components/Footer/index.svelte";
 </script>
 
 <main>
@@ -23,11 +21,7 @@
 
   <Webapp />
 
-  <footer>
-    <Tiles />
-    <Clients />
-    <Contact />
-  </footer>
+  <Footer />
 </main>
 
 <style>

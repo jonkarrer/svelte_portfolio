@@ -16,7 +16,7 @@
 <style>
   .heading-container {
     display: grid;
-    gap: 8px;
+    gap: 10px;
   }
   h2 {
     color: var(--light);

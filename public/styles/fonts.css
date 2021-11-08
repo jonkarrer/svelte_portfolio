@@ -41,6 +41,52 @@ button {
   letter-spacing: 1px;
   font-size: 18px;
 }
+
+/*Md*/
+@media (min-width: 768px) {
+  h1 {
+    font-size: 64px;
+  }
+  h2 {
+    font-size: 54px;
+    letter-spacing: 1px;
+  }
+  h3 {
+    font-size: 48px;
+    letter-spacing: 1px;
+  }
+  h4 {
+    font-size: 24px;
+    letter-spacing: 1px;
+  }
+  p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.8;
+    letter-spacing: 1.2px;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  a:hover {
+    cursor: pointer;
+  }
+  button {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+
+    border: none;
+  }
+
+  .tagline {
+    color: var(--pink);
+    letter-spacing: 1px;
+    font-size: 18px;
+  }
+}
 /*Lg*/
 @media (min-width: 1024px) {
   h1 {

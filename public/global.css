@@ -1,6 +1,5 @@
 @import url("./styles/fonts.css");
-@import url("./styles/hollow_text.css");
-@import url("./styles/button.css");
+
 * {
   margin: 0;
   padding: 0;
@@ -26,15 +25,19 @@ html {
 }
 body {
   background: var(--dark);
+
+  max-width: 1600px;
+  margin: auto;
 }
 section {
   padding: 65px 20px;
 }
-/*Sm*/
-@media (min-width: 640px) {
-}
+
 /*Md*/
 @media (min-width: 768px) {
+  section {
+    padding: 85px 60px;
+  }
 }
 /*Lg*/
 @media (min-width: 1024px) {
