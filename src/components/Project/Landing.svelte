@@ -8,13 +8,11 @@
       <h2>Serenity Hair</h2>
     </div>
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-      est laborum.
+      Landing pages are a cornerstone in any marketing stratagy. Serenity Hair
+      is a hair studio in Florida run by a sole stylist. She wanted a page where
+      clients could see her services, contact her for appoinments, and complete
+      consultations with a form. I designed everything from the ground up with
+      figma and we were able to colaborate completely through email.
     </p>
     <div class="tech-container">
       <span>Netlify</span>

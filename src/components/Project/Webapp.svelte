@@ -8,19 +8,16 @@
       <h2>Recipe Builder</h2>
     </div>
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-      est laborum.
+      I am a profesional chef as well as a programmer, so I decided to build a
+      recipe app of course. I did not use a framework, but used typescript to
+      organize the code. The app has a full "CRUD" workflow. The user's local
+      storage object is serving as my mock database to store thier recipes. This
+      could be made into a full stack app in the future.
     </p>
     <div class="tech-container">
-      <span>Stripe</span>
       <span>Typescript</span>
-      <span>Next.js</span>
-      <span>Tailwind CSS</span>
+      <span>HTML5</span>
+      <span>CSS3</span>
     </div>
   </article>
   <button>Preview</button>
