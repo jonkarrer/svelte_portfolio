@@ -6,12 +6,11 @@
   <Summary rightBorder bg="light" borderColor="dark">
     <Title color="dark" tagline="Landing" heading="Serenity Hair" />
     <p>
-      This is a mock e-commerce site that sells audio equipment. I got the
-      design files from frontendmentor.io and was able to complete the site in
-      40 hours. The product data comes from a Postgres database hosted on
-      Supabase and deployed using Vercel. There is a realtime cart, total
-      calculator, and a full checkout. This was not terribly difficult, and I
-      could do a more complex e-commerce in the future.
+      Landing pages are a cornerstone in any marketing stratagy. Serenity Hair
+      is a hair studio in Florida run by a sole stylist. She wanted a page where
+      clients could see her services, contact her for appoinments, and complete
+      consultations with a form. I designed everything from the ground up with
+      figma and we were able to colaborate completely through email.
     </p>
     <TechStack
       techNames={["Netlify", "HTML5", "CSS3", "Javascript"]}

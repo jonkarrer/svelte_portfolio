@@ -6,12 +6,11 @@
   <Summary leftBorder bg="dark" borderColor="grey">
     <Title color="orange" tagline="Web App" heading="Recipe Builder" />
     <p>
-      This is a mock e-commerce site that sells audio equipment. I got the
-      design files from frontendmentor.io and was able to complete the site in
-      40 hours. The product data comes from a Postgres database hosted on
-      Supabase and deployed using Vercel. There is a realtime cart, total
-      calculator, and a full checkout. This was not terribly difficult, and I
-      could do a more complex e-commerce in the future.
+      I am a profesional chef as well as a programmer, so I decided to build a
+      recipe app of course. I did not use a framework, but used typescript to
+      organize the code. The app has a full "CRUD" workflow. The user's local
+      storage object is serving as my mock database to store thier recipes. This
+      could be made into a full stack app in the future.
     </p>
     <TechStack techNames={["Typescript", "CSS3", "HTML5"]} bg="red" />
   </Summary>
