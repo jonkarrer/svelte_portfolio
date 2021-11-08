@@ -16,8 +16,9 @@ h4 {
 }
 p {
   font-size: 14px;
-  line-height: 1.6;
-  letter-spacing: 1px;
+  font-weight: 300;
+  line-height: 1.8;
+  letter-spacing: 1.2px;
 }
 a {
   text-decoration: none;

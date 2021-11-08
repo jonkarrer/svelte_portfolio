@@ -8,13 +8,11 @@
       <h2>Market Maker Lite</h2>
     </div>
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-      est laborum.
+      MML computes realtime market data into funtional decision indicators. I
+      worked with a financial expert who programmed the back-end using python.
+      The algorithms are proprietary tools that help subscribers make market
+      decisions. I consume the API from his server and display the information
+      in various graphs.
     </p>
     <div class="tech-container">
       <span>Stripe</span>

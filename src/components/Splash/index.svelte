@@ -8,23 +8,26 @@
       <h1>Professional Web Developer</h1>
     </div>
     <p>
-      And I can build software that helps bring you more. With all the modern
-      tools available I am capable of growing your customer base, brand
-      awareness, sales, and more. Together we can create an online store for
-      your product or a simple landing page to showcase your services. If you
-      need help with your start-up I can also offer business advice built by my
-      personal experiences.
+      And I build software that helps brings you more. With all the modern tools
+      available I am capable of growing your customer base, brand awareness,
+      sales, and more. Together we can create an online store for your product
+      or a simple landing page to showcase your services. If you need help with
+      your start-up I can also offer business advice built by my personal
+      experiences. Thank you for coming to my site.
     </p>
     <button>Say Hello</button>
   </article>
+  <div class="arrows-container">
+    <img class="arrow-orange" src="../assets/arrow/red.svg" alt="" />
+    <img src="../assets/arrow/white.svg" alt="" />
+    <img src="../assets/arrow/white.svg" alt="" />
+  </div>
 </section>
 
 <style>
   section {
     min-height: calc(100vh - 75px);
-
-    display: flex;
-    align-items: center;
+    padding-top: 20%;
   }
   article {
     display: grid;
@@ -49,5 +52,20 @@
     color: var(--light);
     background: var(--red);
     margin-top: 10px;
+  }
+
+  .arrows-container {
+    position: absolute;
+    bottom: 20px;
+
+    right: 20px;
+
+    display: grid;
+    place-items: center;
+
+    width: 100px;
+  }
+  .arrows-container img {
+    width: 40px;
   }
 </style>

@@ -8,13 +8,12 @@
       <h2>audiophile</h2>
     </div>
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-      est laborum.
+      This is a mock e-commerce site that sells audio equipment. I got the
+      design files from frontendmentor.io and was able to complete the site in
+      40 hours. The product data comes from a Postgres database hosted on
+      Supabase and deployed using Vercel. There is a realtime cart, total
+      calculator, and a full checkout. This was not terribly difficult, and I
+      could do a more complex e-commerce in the future.
     </p>
     <div class="tech-container">
       <span>Supabase</span>
