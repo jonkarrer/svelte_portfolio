@@ -1,13 +1,13 @@
 <script>
-  import Header from "./components/Header.svelte";
+  import Header from "./components/Splash/Header.svelte";
   import Splash from "./components/Splash/index.svelte";
-  import Ecommerce from "./components/Project/Ecommerce.svelte";
-  import SPA from "./components/Project/SPA.svelte";
-  import Landing from "./components/Project/Landing.svelte";
-  import Webapp from "./components/Project/Webapp.svelte";
-  import Tiles from "./components/Tiles.svelte";
-  import Clients from "./components/Clients.svelte";
-  import Contact from "./components/Contact.svelte";
+  import Ecommerce from "./components/Projects/Ecommerce.svelte";
+  import SPA from "./components/Projects/SPA.svelte";
+  import Landing from "./components/Projects/Landing.svelte";
+  import Webapp from "./components/Projects/Webapp.svelte";
+  import Tiles from "./components/Footer/Tiles.svelte";
+  import Clients from "./components/Footer/Clients.svelte";
+  import Contact from "./components/Footer/Contact.svelte";
 </script>
 
 <main>
