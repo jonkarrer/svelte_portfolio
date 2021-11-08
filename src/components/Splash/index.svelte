@@ -10,10 +10,10 @@
     <p>
       And I build software that helps brings you more. With all the modern tools
       available I am capable of growing your customer base, brand awareness,
-      sales, and more. Together we can create an online store for your product
-      or a simple landing page to showcase your services. If you need help with
-      your start-up I can also offer business advice built by my personal
-      experiences. Thank you for coming to my site.
+      traffic, and sales. Together we can create an online store for your
+      product or a simple landing page to showcase your services. If you need
+      help with your start-up I can also offer business advice built by my
+      personal experiences. Scroll to see my work.
     </p>
     <button>Say Hello</button>
   </article>
