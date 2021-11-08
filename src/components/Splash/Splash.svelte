@@ -26,18 +26,35 @@
 
 <style>
   section {
-    height: calc(100vh - 75px);
-    min-height: 600px;
+    height: 100vh;
+    min-height: 700px;
 
-    padding-top: 20%;
+    padding-top: 40%;
 
+    display: block;
     position: relative;
+    z-index: 2;
+  }
+  section::after {
+    content: "";
+    background: url("../assets/bg.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
   }
   article {
     display: grid;
     gap: 20px;
 
     color: var(--light);
+    z-index: 15;
   }
   .heading-container {
     display: grid;
@@ -59,14 +76,16 @@
   }
   .arrows-container {
     position: absolute;
-    bottom: 80px;
+    bottom: 30px;
 
-    right: 10px;
+    right: 0;
 
     display: grid;
     place-items: center;
 
     width: 100px;
+
+    z-index: 10;
   }
   .arrows-container img {
     width: 40px;
@@ -75,7 +94,10 @@
   /*Md*/
   @media (min-width: 768px) {
     section {
-      height: calc(100vh - 160px);
+      padding-top: 10%;
+
+      display: flex;
+      align-items: center;
     }
 
     .arrows-container img {
@@ -85,8 +107,7 @@
   /*Lg*/
   @media (min-width: 1024px) {
     section {
-      height: calc(100vh - 160px);
-      padding-top: 0;
+      padding-top: 10%;
 
       display: flex;
       align-items: center;
