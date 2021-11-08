@@ -1,7 +1,10 @@
+<script lang="ts">
+  import Title from "../Projects/shared/Title.svelte";
+</script>
+
 <section>
-  <div class="heading-container">
-    <div class="tagline">Github API</div>
-    <h2>Some of my other work</h2>
+  <div class="title">
+    <Title tagline="Github API" heading="Some of my other work" color="light" />
   </div>
   <div class="grid">
     <span>One</span>
@@ -14,13 +17,6 @@
 </section>
 
 <style>
-  .heading-container {
-    display: grid;
-    gap: 10px;
-  }
-  h2 {
-    color: var(--light);
-  }
   .grid {
     display: grid;
     grid: auto / 1fr 1fr;
@@ -32,5 +28,33 @@
     height: 200px;
     background: var(--light);
     border-radius: 3px;
+  }
+  /*Md*/
+  @media (min-width: 768px) {
+    .grid {
+      gap: 20px;
+    }
+  }
+  /*Lg*/
+  @media (min-width: 1024px) {
+    section {
+      display: grid;
+    }
+    .grid {
+      grid: auto / repeat(3, 1fr);
+      gap: 20px;
+    }
+    .title {
+      justify-self: end;
+    }
+  }
+  /*Xl*/
+  @media (min-width: 1250px) {
+    span {
+      height: 250px;
+    }
+  }
+  /*2xl*/
+  @media (min-width: 1536px) {
   }
 </style>

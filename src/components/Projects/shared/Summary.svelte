@@ -42,5 +42,8 @@
     .rightBorder {
       border-right-width: 30px;
     }
+    article {
+      padding: 50px 30px;
+    }
   }
 </style>

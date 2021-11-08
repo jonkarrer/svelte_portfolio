@@ -20,13 +20,13 @@
 html {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  background: var(--background);
+  background: var(--light);
   scroll-behavior: smooth;
 }
 body {
   background: var(--dark);
 
-  max-width: 1600px;
+  max-width: 1500px;
   margin: auto;
 }
 section {
@@ -36,14 +36,20 @@ section {
 /*Md*/
 @media (min-width: 768px) {
   section {
-    padding: 85px 60px;
+    padding: 80px 60px;
   }
 }
 /*Lg*/
 @media (min-width: 1024px) {
+  section {
+    padding: 80px 4%;
+  }
 }
 /*Xl*/
-@media (min-width: 1280px) {
+@media (min-width: 1250px) {
+  section {
+    padding: 80px 6%;
+  }
 }
 /*2xl*/
 @media (min-width: 1536px) {

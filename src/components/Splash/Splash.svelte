@@ -30,6 +30,8 @@
     min-height: 600px;
 
     padding-top: 20%;
+
+    position: relative;
   }
   article {
     display: grid;
@@ -57,7 +59,7 @@
   }
   .arrows-container {
     position: absolute;
-    bottom: 20px;
+    bottom: 80px;
 
     right: 20px;
 
@@ -73,7 +75,7 @@
   /*Md*/
   @media (min-width: 768px) {
     section {
-      height: calc(100vh - 150px);
+      height: calc(100vh - 160px);
     }
 
     .arrows-container img {
@@ -82,9 +84,39 @@
   }
   /*Lg*/
   @media (min-width: 1024px) {
+    section {
+      height: calc(100vh - 160px);
+      padding-top: 0;
+
+      display: flex;
+      align-items: center;
+    }
+    .arrows-container img {
+      width: 50px;
+    }
+    article {
+      width: 850px;
+    }
+    .heading-container {
+      justify-self: end;
+    }
+    p {
+      text-align: right;
+      width: 85%;
+      justify-self: end;
+    }
+    button {
+      justify-self: end;
+    }
   }
   /*Xl*/
   @media (min-width: 1280px) {
+    .arrows-container {
+      right: 40px;
+    }
+    .arrows-container img {
+      width: 60px;
+    }
   }
   /*2xl*/
   @media (min-width: 1536px) {

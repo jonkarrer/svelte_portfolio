@@ -1,9 +1,10 @@
+<script lang="ts">
+  import Title from "../Projects/shared/Title.svelte";
+</script>
+
 <section>
   <div>
-    <div class="heading-container">
-      <div class="tagline">Contact</div>
-      <h2>Let's Begin</h2>
-    </div>
+    <Title tagline="Contact" heading="Let's Begin" color="light" />
     <button>karrerjon@gmail.com</button>
   </div>
   <div class="social-container">
@@ -18,10 +19,6 @@
 </section>
 
 <style>
-  .heading-container {
-    display: grid;
-    gap: 8px;
-  }
   .social-container {
     display: grid;
     gap: 20px;
@@ -35,9 +32,7 @@
     font-size: 18px;
     font-weight: 700;
   }
-  h2 {
-    color: var(--light);
-  }
+
   button {
     height: 70px;
     width: 100%;
@@ -53,6 +48,25 @@
 
       font-size: 18px;
       font-weight: 700;
+    }
+  }
+  /*Lg*/
+  @media (min-width: 1024px) {
+    section {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    button {
+      width: 500px;
+    }
+  }
+
+  /*Xl*/
+  @media (min-width: 1250px) {
+    .links {
+      font-size: 24px;
+      gap: 40px;
     }
   }
 </style>

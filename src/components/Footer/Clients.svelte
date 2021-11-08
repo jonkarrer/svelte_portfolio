@@ -1,8 +1,9 @@
+<script lang="ts">
+  import Title from "../Projects/shared/Title.svelte";
+</script>
+
 <section>
-  <div class="heading-container">
-    <div class="tagline">Testimonial</div>
-    <h2>What my clients say</h2>
-  </div>
+  <Title tagline="Testimonial" heading="What my clients say" color="light" />
   <div class="grid">
     <article>
       <p>
@@ -32,15 +33,13 @@
 </section>
 
 <style>
-  h2 {
-    color: var(--light);
-  }
   h4 {
     color: var(--light);
     margin-top: 10px;
   }
   p {
     color: var(--grey);
+    font-size: 14px;
   }
   .grid {
     display: grid;
@@ -49,5 +48,27 @@
     text-align: center;
 
     margin-top: 30px;
+  }
+
+  /*Lg*/
+  @media (min-width: 1024px) {
+    .grid {
+      gap: 35px;
+      text-align: left;
+
+      grid: auto / repeat(3, 1fr);
+    }
+    h4 {
+      text-align: right;
+    }
+  }
+  /*Xl*/
+  @media (min-width: 1250px) {
+    .grid {
+      gap: 80px;
+    }
+  }
+  /*2xl*/
+  @media (min-width: 1536px) {
   }
 </style>
