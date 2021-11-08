@@ -61,7 +61,7 @@
     position: absolute;
     bottom: 80px;
 
-    right: 20px;
+    right: 10px;
 
     display: grid;
     place-items: center;
