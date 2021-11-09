@@ -19,7 +19,7 @@
     </span>
     <span>
       <h3>Countries</h3>
-      <p>I consume a all countries from an API. React.</p>
+      <p>I consume countries data from an API. React.</p>
       <a target="_blank" href="https://angry-villani-a63212.netlify.app">View</a
       >
     </span>
