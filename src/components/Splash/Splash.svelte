@@ -38,10 +38,10 @@
   section::after {
     content: "";
     background: url("../assets/bg.jpg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    opacity: 0.3;
+    opacity: 0.1;
     top: 0;
     left: 0;
     bottom: 0;

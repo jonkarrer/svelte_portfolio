@@ -7,25 +7,25 @@
   <div class="grid">
     <article>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+        I never felt lost with your help. We described the website I wanted in
+        one meeting and you had it finished in under a week. I love love my new
+        site! I now have more clients than I can handle.
       </p>
       <h4>-Amanda</h4>
     </article>
     <article>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+        This project seemed like a huge undertaking by both of us, but once we
+        got going it has been a breeze. Any time I had a design change or new
+        feature, you were always happy to code more.
       </p>
       <h4>-Baker</h4>
     </article>
     <article>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+        It is kinda crazy we were able to build my site without ever meeting.
+        You communicated so well and answered my emails promptly. My website is
+        exactly what I wanted.
       </p>
       <h4>-Sarah</h4>
     </article>

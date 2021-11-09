@@ -3,7 +3,7 @@
   export let bg: string;
 </script>
 
-<a href={link} style={`background: var(--${bg})`}>Preview</a>
+<a href={link} style={`background: var(--${bg})`} target="_blank">Preview</a>
 
 <style>
   a {

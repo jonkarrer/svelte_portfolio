@@ -30,7 +30,7 @@
         bg="orange"
       />
     </Summary>
-    <Preview link="/" bg="red" />
+    <Preview link="https://silly-dubinsky-a8c901.netlify.app" bg="red" />
   </div>
 </section>
 

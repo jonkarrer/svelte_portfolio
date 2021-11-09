@@ -30,7 +30,7 @@
         bg="dark"
       />
     </Summary>
-    <Preview link="/" bg="dark" />
+    <Preview link="https://www.serenityhairstudioflorida.com" bg="dark" />
   </div>
 </section>
 

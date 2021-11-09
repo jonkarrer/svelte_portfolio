@@ -16,7 +16,7 @@
       </p>
       <TechStack techNames={["Typescript", "CSS3", "HTML5"]} bg="red" />
     </Summary>
-    <Preview link="/" bg="orange" />
+    <Preview link="https://jonkarrer.github.io/Recipe_App/" bg="orange" />
   </div>
   <div class="gallery">
     <span class="one"

@@ -10,10 +10,16 @@
   <div class="social-container">
     <div class="tagline">Find me</div>
     <div class="links">
-      <a href="/">Github</a>
-      <a href="/">LinkedIn</a>
-      <a href="/">Fiverr</a>
-      <a href="/">Codepen</a>
+      <a target="_blank" href="https://github.com/jonkarrer">Github</a>
+      <a
+        target="_blank"
+        href="https://www.linkedin.com/in/jon-karrer-6b8a18186/">LinkedIn</a
+      >
+      <a
+        target="_blank"
+        href="https://www.fiverr.com/jonkarrer?public_mode=true">Fiverr</a
+      >
+      <a target="_blank" href="https://codepen.io/jonkarrer">Codepen</a>
     </div>
   </div>
 </section>
