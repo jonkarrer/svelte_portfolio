@@ -1,4 +1,12 @@
 <script>
+  let greeting = "Say Hello";
+  async function copyEmail() {
+    await navigator.clipboard.writeText("karrerjon@gmail.com");
+    alert("Hello! You now have my email in you clipboard");
+
+    greeting = "Back at ya!";
+    console.log("hey");
+  }
 </script>
 
 <section>
@@ -15,7 +23,7 @@
       help with your start-up I can also offer business advice built by my
       personal experiences. Scroll to see my work.
     </p>
-    <button>Say Hello</button>
+    <button on:click={() => copyEmail()}>{greeting}</button>
   </article>
   <div class="arrows-container">
     <img class="arrow-orange" src="../assets/arrow/red.svg" alt="" />
@@ -59,6 +67,9 @@
     color: var(--light);
     background: var(--red);
     margin-top: 10px;
+  }
+  button:hover {
+    cursor: pointer;
   }
   .arrows-container {
     position: absolute;

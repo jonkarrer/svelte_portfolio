@@ -1,11 +1,12 @@
 <script lang="ts">
   import Title from "../Projects/shared/Title.svelte";
+  import Email from "./Email.svelte";
 </script>
 
 <section>
   <div>
     <Title tagline="Contact" heading="Let's Begin" color="light" />
-    <button>karrerjon@gmail.com</button>
+    <Email />
   </div>
   <div class="social-container">
     <div class="tagline">Find me</div>
@@ -39,14 +40,6 @@
     font-weight: 700;
   }
 
-  button {
-    height: 70px;
-    width: 100%;
-    font-size: 24px;
-
-    margin-top: 30px;
-  }
-
   /*Md*/
   @media (min-width: 768px) {
     .links {
@@ -62,9 +55,6 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-    }
-    button {
-      width: 500px;
     }
   }
 
