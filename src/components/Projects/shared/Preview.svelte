@@ -19,5 +19,7 @@
 
     border-bottom-right-radius: 3px;
     border-bottom-left-radius: 3px;
+
+    z-index: 30;
   }
 </style>
