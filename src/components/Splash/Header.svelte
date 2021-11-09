@@ -20,7 +20,6 @@
   }
   img {
     margin: auto;
-
     width: 75px;
   }
   nav {
@@ -44,7 +43,6 @@
 
     img {
       margin: 0;
-
       width: 125px;
     }
     nav {
@@ -55,14 +53,5 @@
       margin-bottom: 30px;
       margin-left: 40px;
     }
-  }
-  /*Lg*/
-  @media (min-width: 1024px) {
-  }
-  /*Xl*/
-  @media (min-width: 1280px) {
-  }
-  /*2xl*/
-  @media (min-width: 1536px) {
   }
 </style>

@@ -88,10 +88,3 @@ button {
     font-size: 18px;
   }
 }
-/*Lg*/
-@media (min-width: 1024px) {
-}
-
-/*2xl*/
-@media (min-width: 1536px) {
-}

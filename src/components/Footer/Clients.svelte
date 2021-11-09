@@ -62,13 +62,11 @@
       text-align: right;
     }
   }
+
   /*Xl*/
   @media (min-width: 1250px) {
     .grid {
       gap: 80px;
     }
-  }
-  /*2xl*/
-  @media (min-width: 1536px) {
   }
 </style>

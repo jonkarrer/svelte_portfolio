@@ -49,6 +49,7 @@
       font-weight: 700;
     }
   }
+
   /*Lg*/
   @media (min-width: 1024px) {
     section {

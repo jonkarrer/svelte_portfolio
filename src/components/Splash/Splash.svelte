@@ -5,7 +5,6 @@
     alert("Hello! You now have my email in you clipboard");
 
     greeting = "Back at ya!";
-    console.log("hey");
   }
 </script>
 
@@ -74,7 +73,6 @@
   .arrows-container {
     position: absolute;
     bottom: 30px;
-
     right: 0;
 
     display: grid;
@@ -135,8 +133,5 @@
     .arrows-container img {
       width: 60px;
     }
-  }
-  /*2xl*/
-  @media (min-width: 1536px) {
   }
 </style>

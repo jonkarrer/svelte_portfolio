@@ -73,12 +73,14 @@
     display: grid;
     place-content: center;
   }
+
   /*Md*/
   @media (min-width: 768px) {
     .grid {
       gap: 20px;
     }
   }
+
   /*Lg*/
   @media (min-width: 1024px) {
     section {
@@ -98,13 +100,11 @@
       font-size: 36px;
     }
   }
+
   /*Xl*/
   @media (min-width: 1250px) {
     span {
       height: 250px;
     }
-  }
-  /*2xl*/
-  @media (min-width: 1536px) {
   }
 </style>

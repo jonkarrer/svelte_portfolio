@@ -1,9 +1,9 @@
 <script lang="ts">
-  import { Summary, Title, TechStack, Preview } from "./shared/index";
+  import { Summary, Title, TechStack, Preview, Gallery } from "./shared/index";
 </script>
 
 <section>
-  <div class="gallery">
+  <Gallery>
     <span class="one"
       ><img src="./assets/serenity/tablet.png" alt="mobile view" /></span
     >
@@ -13,7 +13,7 @@
     <span class="three"
       ><img src="./assets/serenity/desktop.png" alt="mobile view" /></span
     >
-  </div>
+  </Gallery>
   <div class="summary">
     <Summary rightBorder bg="light" borderColor="dark">
       <Title color="dark" tagline="Landing" heading="Serenity Hair" />
@@ -41,9 +41,7 @@
   p {
     color: var(--grey);
   }
-  .gallery {
-    display: none;
-  }
+
   /*Lg*/
   @media (min-width: 1024px) {
     section {
@@ -52,16 +50,6 @@
     }
     .summary {
       width: 500px;
-    }
-    .gallery {
-      display: grid;
-      gap: 10px;
-      grid: 1fr 1fr / repeat(3, 1fr);
-
-      width: 450px;
-    }
-    .gallery span {
-      background: black;
     }
     .one {
       grid-column: 1 / span 2;
@@ -75,20 +63,11 @@
       grid-column: 1 / span 3;
     }
   }
+
   /*Xl*/
   @media (min-width: 1250px) {
     section {
       align-items: center;
-    }
-    .summary {
-      width: 500px;
-    }
-    .gallery {
-      display: grid;
-      gap: 10px;
-      grid: 1fr 1fr / repeat(3, 1fr);
-
-      width: 550px;
     }
   }
 </style>
