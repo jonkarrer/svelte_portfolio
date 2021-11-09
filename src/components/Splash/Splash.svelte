@@ -35,20 +35,6 @@
     position: relative;
     z-index: 2;
   }
-  section::after {
-    content: "";
-    background: url("../assets/bg.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    opacity: 0.1;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;
-  }
   article {
     display: grid;
     gap: 20px;
