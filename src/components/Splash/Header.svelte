@@ -2,9 +2,9 @@
   <img src="../assets/logo.svg" alt="logo" />
   <nav>
     <a href="#e-commerce">E-commerce</a>
-    <a href="#e-commerce">SPA</a>
-    <a href="#e-commerce">Landing</a>
-    <a href="#e-commerce">Web App</a>
+    <a href="#SPA">SPA</a>
+    <a href="#Landing">Landing</a>
+    <a href="#Web App">Web App</a>
   </nav>
 </header>
 

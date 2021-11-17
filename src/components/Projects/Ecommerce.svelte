@@ -2,7 +2,7 @@
   import { Summary, Title, TechStack, Preview, Gallery } from "./shared/index";
 </script>
 
-<section>
+<section id="e-commerce">
   <Gallery>
     <span class="one"
       ><img src="./assets/audiophile/tablet.png" alt="mobile view" /></span

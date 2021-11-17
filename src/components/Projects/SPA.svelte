@@ -2,7 +2,7 @@
   import { Summary, Title, TechStack, Preview, Gallery } from "./shared/index";
 </script>
 
-<section>
+<section id="SPA">
   <div class="summary">
     <Summary leftBorder bg="dark" borderColor="grey">
       <Title color="orange" tagline="SPA" heading="Market Maker Lite" />

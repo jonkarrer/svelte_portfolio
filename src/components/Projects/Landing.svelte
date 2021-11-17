@@ -2,7 +2,7 @@
   import { Summary, Title, TechStack, Preview, Gallery } from "./shared/index";
 </script>
 
-<section>
+<section id="Landing">
   <Gallery>
     <span class="one"
       ><img src="./assets/serenity/tablet.png" alt="mobile view" /></span

@@ -4,7 +4,7 @@
   import { Summary, Title, TechStack, Preview } from "./shared/index";
 </script>
 
-<section>
+<section id="Web App">
   <div class="summary">
     <Summary leftBorder bg="light" borderColor="orange">
       <Title color="dark" tagline="Web App" heading="Recipe Builder" />

@@ -35,6 +35,7 @@
   section {
     height: 100vh;
     min-height: 700px;
+    max-height: 1000px;
 
     padding-top: 40%;
 
