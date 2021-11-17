@@ -25,6 +25,9 @@
 </main>
 
 <style>
+  main {
+    position: relative;
+  }
   /*Lg*/
   @media (min-width: 1024px) {
   }
