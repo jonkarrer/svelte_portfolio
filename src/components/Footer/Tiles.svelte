@@ -8,6 +8,11 @@
   </div>
   <div class="grid">
     <span>
+      <h3>Feedback App</h3>
+      <p>User given feedback tracked and organized.</p>
+      <a target="_blank" href="https://feedback-app-alpha.vercel.app/">View</a>
+    </span>
+    <span>
       <h3>myTeam</h3>
       <p>A professional basic multi page website.</p>
       <a target="_blank" href="https://jonkarrer.github.io/myTeam/">View</a>
@@ -22,12 +27,6 @@
       <p>I consume countries data from an API. React.</p>
       <a target="_blank" href="https://angry-villani-a63212.netlify.app">View</a
       >
-    </span>
-
-    <span>
-      <h3>Battleship</h3>
-      <p>Test driven classic board game. React.</p>
-      <a target="_blank" href="https://jonkarrer.github.io/battleship/">View</a>
     </span>
     <span>
       <h3>Memory</h3>
