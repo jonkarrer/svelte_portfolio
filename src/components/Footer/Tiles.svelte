@@ -8,8 +8,8 @@
   </div>
   <div class="grid">
     <span>
-      <h3>Feedback App</h3>
-      <p>User given feedback tracked and organized.</p>
+      <h3>Feedback</h3>
+      <p>User feedback tracked and organized.</p>
       <a target="_blank" href="https://feedback-app-alpha.vercel.app/">View</a>
     </span>
     <span>
